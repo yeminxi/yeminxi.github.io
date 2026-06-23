@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;vmware&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2024-05-25T05:15:51.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/6404ce4b.html</id>
+        <title>第一章 VMware Workstation Pro 17安装Centos 7 安装虚拟机及简单配置</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/6404ce4b.html"/>
+        <content type="html">&lt;h1 id=&#34;前言-vm-17-安装Centos7-安装准备&#34;&gt;&lt;a href=&#34;#前言-vm-17-安装Centos7-安装准备&#34; class=&#34;headerlink&#34; title=&#34;前言  vm 17 安装Centos7 安装准备&#34;&gt;&lt;/a&gt;前言  vm 17 安装Centos7 安装准备&lt;/h1&gt;&lt;p&gt;vm装centos7 VMware Workstation Pro 17 安装Centos 7&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;单击文字下载&lt;br&gt;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;https://pan-yz.cldisk.com/external/m/file/996322369614340096&#34;&gt;镜像&lt;/a&gt;&lt;br&gt;  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a href=&#34;https://www.vmware.com/cn/products/workstation-pro/workstation-pro-evaluation.html&#34;&gt;官网自行下载&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一、创建新的虚拟机&#34;&gt;&lt;a href=&#34;#一、创建新的虚拟机&#34; class=&#34;headerlink&#34; title=&#34;一、创建新的虚拟机&#34;&gt;&lt;/a&gt;一、创建新的虚拟机&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/01.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/01.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二、选择硬件兼容性&#34;&gt;&lt;a href=&#34;#二、选择硬件兼容性&#34; class=&#34;headerlink&#34; title=&#34;二、选择硬件兼容性&#34;&gt;&lt;/a&gt;二、选择硬件兼容性&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/02.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/02.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三、安装客户机操作系统&#34;&gt;&lt;a href=&#34;#三、安装客户机操作系统&#34; class=&#34;headerlink&#34; title=&#34;三、安装客户机操作系统&#34;&gt;&lt;/a&gt;三、安装客户机操作系统&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/03.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/03.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四、个性化Linux&#34;&gt;&lt;a href=&#34;#四、个性化Linux&#34; class=&#34;headerlink&#34; title=&#34;四、个性化Linux&#34;&gt;&lt;/a&gt;四、个性化Linux&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/04.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/04.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五、命名虚拟机-位置&#34;&gt;&lt;a href=&#34;#五、命名虚拟机-位置&#34; class=&#34;headerlink&#34; title=&#34;五、命名虚拟机 位置&#34;&gt;&lt;/a&gt;五、命名虚拟机 位置&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/05.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/05.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六、处理器配置&#34;&gt;&lt;a href=&#34;#六、处理器配置&#34; class=&#34;headerlink&#34; title=&#34;六、处理器配置&#34;&gt;&lt;/a&gt;六、处理器配置&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/06.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/06.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;七、此虚拟机内存（默认即可-看自己配置）&#34;&gt;&lt;a href=&#34;#七、此虚拟机内存（默认即可-看自己配置）&#34; class=&#34;headerlink&#34; title=&#34;七、此虚拟机内存（默认即可 看自己配置）&#34;&gt;&lt;/a&gt;七、此虚拟机内存（默认即可 看自己配置）&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/07.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/07.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;八、网络类型&#34;&gt;&lt;a href=&#34;#八、网络类型&#34; class=&#34;headerlink&#34; title=&#34;八、网络类型&#34;&gt;&lt;/a&gt;八、网络类型&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/08.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/08.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;九、选择磁盘类型&#34;&gt;&lt;a href=&#34;#九、选择磁盘类型&#34; class=&#34;headerlink&#34; title=&#34;九、选择磁盘类型&#34;&gt;&lt;/a&gt;九、选择磁盘类型&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/09.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/09.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十、选择I-O控制器类型&#34;&gt;&lt;a href=&#34;#十、选择I-O控制器类型&#34; class=&#34;headerlink&#34; title=&#34;十、选择I&amp;#x2F;O控制器类型&#34;&gt;&lt;/a&gt;十、选择I&amp;#x2F;O控制器类型&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/10.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/10.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十一、指定磁盘容量&#34;&gt;&lt;a href=&#34;#十一、指定磁盘容量&#34; class=&#34;headerlink&#34; title=&#34;十一、指定磁盘容量&#34;&gt;&lt;/a&gt;十一、指定磁盘容量&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/11.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/11.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十二、选择磁盘&#34;&gt;&lt;a href=&#34;#十二、选择磁盘&#34; class=&#34;headerlink&#34; title=&#34;十二、选择磁盘&#34;&gt;&lt;/a&gt;十二、选择磁盘&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/12.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/12.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十三、指定磁盘文件&#34;&gt;&lt;a href=&#34;#十三、指定磁盘文件&#34; class=&#34;headerlink&#34; title=&#34;十三、指定磁盘文件&#34;&gt;&lt;/a&gt;十三、指定磁盘文件&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/13.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/13.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十四、完成&#34;&gt;&lt;a href=&#34;#十四、完成&#34; class=&#34;headerlink&#34; title=&#34;十四、完成&#34;&gt;&lt;/a&gt;十四、完成&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/14.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/14.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十五、中继服务器安装可以参考这一步（其余可忽略此步）&#34;&gt;&lt;a href=&#34;#十五、中继服务器安装可以参考这一步（其余可忽略此步）&#34; class=&#34;headerlink&#34; title=&#34;十五、中继服务器安装可以参考这一步（其余可忽略此步）&#34;&gt;&lt;/a&gt;十五、中继服务器安装可以参考这一步（其余可忽略此步）&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;双网卡 NAT模式 仅主机&lt;/strong&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/15.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/15.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/16.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/16.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/17.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/17.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/18.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/18.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;十六、启动虚拟机&#34;&gt;&lt;a href=&#34;#十六、启动虚拟机&#34; class=&#34;headerlink&#34; title=&#34;十六、启动虚拟机&#34;&gt;&lt;/a&gt;十六、启动虚拟机&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/19.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/19.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;不需要任何操作，等待一段时间&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/20.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/20.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;出现此界面即安装完成&lt;/p&gt;
+&lt;h2 id=&#34;十七、设置中文-拼音输入法-时区&#34;&gt;&lt;a href=&#34;#十七、设置中文-拼音输入法-时区&#34; class=&#34;headerlink&#34; title=&#34;十七、设置中文 拼音输入法 时区&#34;&gt;&lt;/a&gt;十七、设置中文 拼音输入法 时区&lt;/h2&gt;&lt;p&gt;按照步骤进行实验&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/21.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/21.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/22.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/22.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/23.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/23.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/24.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/24.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/25.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/25.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;重启即可&lt;/p&gt;
+&lt;h2 id=&#34;至此，安装完成。&#34;&gt;&lt;a href=&#34;#至此，安装完成。&#34; class=&#34;headerlink&#34; title=&#34;至此，安装完成。&#34;&gt;&lt;/a&gt;至此，安装完成。&lt;/h2&gt;&lt;h3 id=&#34;注意事项&#34;&gt;&lt;a href=&#34;#注意事项&#34; class=&#34;headerlink&#34; title=&#34;注意事项&#34;&gt;&lt;/a&gt;注意事项&lt;/h3&gt;&lt;h4 id=&#34;一开机就蓝屏的情况，可以参考以下方法：&#34;&gt;&lt;a href=&#34;#一开机就蓝屏的情况，可以参考以下方法：&#34; class=&#34;headerlink&#34; title=&#34;一开机就蓝屏的情况，可以参考以下方法：&#34;&gt;&lt;/a&gt;一开机就蓝屏的情况，可以参考以下方法：&lt;/h4&gt;&lt;h5 id=&#34;1-配置虚拟内存（20480MB打上）&#34;&gt;&lt;a href=&#34;#1-配置虚拟内存（20480MB打上）&#34; class=&#34;headerlink&#34; title=&#34;1. 配置虚拟内存（20480MB打上）&#34;&gt;&lt;/a&gt;1. 配置虚拟内存（20480MB打上）&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/26.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/26.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2-打开功能&#34;&gt;&lt;a href=&#34;#2-打开功能&#34; class=&#34;headerlink&#34; title=&#34;2. 打开功能&#34;&gt;&lt;/a&gt;2. 打开功能&lt;/h5&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/01/27.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/01/27.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;结尾&#34;&gt;&lt;a href=&#34;#结尾&#34; class=&#34;headerlink&#34; title=&#34;结尾&#34;&gt;&lt;/a&gt;结尾&lt;/h1&gt;&lt;p&gt;希望对你有所帮助，有任何问题请在下方留言。可以关注我的 &lt;a href=&#34;/rss/&#34;&gt;公众号以及订阅我的文章&lt;/a&gt; ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。&lt;/p&gt;
+</content>
+        <category term="服务器" />
+        <category term="运维" />
+        <category term="VMware" />
+        <category term="Linux" />
+        <category term="CentOS" />
+        <updated>2024-05-25T05:15:51.000Z</updated>
+    </entry>
+</feed>

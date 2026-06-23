@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;ssh&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2024-05-28T03:21:51.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/c38d1213.html</id>
+        <title>第二章_Centos 7 Linux配置ssh 实训任务：SSH的安全配置</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/c38d1213.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;任务情境描述某公司管理员已经将自己个人电脑免密登录到远程服务器。服务器地址为192.168.1.10&amp;#x2F;24（IP地址可自行设置）管理员PC地址为192.168.1.20&amp;#x2F;24（IP地址可自行设置）管理员ID为admin，密码为password任务需求：（1）为了让SSH更安全，需要修改SSH的端口为61234；（2）限制SSH服务器只能由管理员PC通过admin用户登录，其他用户均无法远程访问服务器。请完成配置，并提交实验报告。（线下课程随堂检查）&lt;/p&gt;
+&lt;p&gt;虚拟机需求：1台服务器（Server）、1台客户端（Client）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h2 id=&#34;实训任务2：SSH的安全配置&#34;&gt;&lt;a href=&#34;#实训任务2：SSH的安全配置&#34; class=&#34;headerlink&#34; title=&#34;实训任务2：SSH的安全配置&#34;&gt;&lt;/a&gt;实训任务2：SSH的安全配置&lt;/h2&gt;&lt;h3 id=&#34;任务情境描述-某公司管理员已经将自己个人电脑免密登录到远程服务器。&#34;&gt;&lt;a href=&#34;#任务情境描述-某公司管理员已经将自己个人电脑免密登录到远程服务器。&#34; class=&#34;headerlink&#34; title=&#34;任务情境描述 某公司管理员已经将自己个人电脑免密登录到远程服务器。&#34;&gt;&lt;/a&gt;任务情境描述 某公司管理员已经将自己个人电脑免密登录到远程服务器。&lt;/h3&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/01.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/01.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;服务器地址为192.168.1.10&amp;#x2F;24（IP地址可自行设置）&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;管理员PC地址为192.168.1.20&amp;#x2F;24（IP地址可自行设置）&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;管理员ID为admin，密码为password&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;任务需求：&#34;&gt;&lt;a href=&#34;#任务需求：&#34; class=&#34;headerlink&#34; title=&#34;任务需求：&#34;&gt;&lt;/a&gt;任务需求：&lt;/h3&gt;&lt;h4 id=&#34;（1）为了让SSH更安全，需要修改SSH的端口为61234；&#34;&gt;&lt;a href=&#34;#（1）为了让SSH更安全，需要修改SSH的端口为61234；&#34; class=&#34;headerlink&#34; title=&#34;（1）为了让SSH更安全，需要修改SSH的端口为61234；&#34;&gt;&lt;/a&gt;（1）为了让SSH更安全，需要修改SSH的端口为61234；&lt;/h4&gt;&lt;h4 id=&#34;（2）限制SSH服务器只能由管理员PC通过admin用户登录，其他用户均无法远程访问服务器。&#34;&gt;&lt;a href=&#34;#（2）限制SSH服务器只能由管理员PC通过admin用户登录，其他用户均无法远程访问服务器。&#34; class=&#34;headerlink&#34; title=&#34;（2）限制SSH服务器只能由管理员PC通过admin用户登录，其他用户均无法远程访问服务器。&#34;&gt;&lt;/a&gt;（2）限制SSH服务器只能由管理员PC通过admin用户登录，其他用户均无法远程访问服务器。&lt;/h4&gt;&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;请完成配置，并提交实验报告。（线下课程随堂检查） 若没有安装Centos 7 虚拟机 请单击此处 有详细的安装教程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;一、配置虚拟网络（可自行设置）&#34;&gt;&lt;a href=&#34;#一、配置虚拟网络（可自行设置）&#34; class=&#34;headerlink&#34; title=&#34;一、配置虚拟网络（可自行设置）&#34;&gt;&lt;/a&gt;一、配置虚拟网络（可自行设置）&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/02.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/02.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/03.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/03.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;不勾选使用本地DHCP服务 按题目需求修改IP地址&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;1-修改NAT模式的子网IP：192-168-1-0-子网掩码：255-255-255-0&#34;&gt;&lt;a href=&#34;#1-修改NAT模式的子网IP：192-168-1-0-子网掩码：255-255-255-0&#34; class=&#34;headerlink&#34; title=&#34;1. 修改NAT模式的子网IP：192.168.1.0 子网掩码：255.255.255.0&#34;&gt;&lt;/a&gt;1. 修改NAT模式的子网IP：192.168.1.0 子网掩码：255.255.255.0&lt;/h3&gt;&lt;h3 id=&#34;2-取消勾选使用本地DHCP服务将IP地址分配给虚拟机&#34;&gt;&lt;a href=&#34;#2-取消勾选使用本地DHCP服务将IP地址分配给虚拟机&#34; class=&#34;headerlink&#34; title=&#34;2. 取消勾选使用本地DHCP服务将IP地址分配给虚拟机&#34;&gt;&lt;/a&gt;2. 取消勾选使用本地DHCP服务将IP地址分配给虚拟机&lt;/h3&gt;&lt;h3 id=&#34;3-单击“NAT-设置”-修改网关：192-168-1-2&#34;&gt;&lt;a href=&#34;#3-单击“NAT-设置”-修改网关：192-168-1-2&#34; class=&#34;headerlink&#34; title=&#34;3. 单击“NAT 设置” 修改网关：192.168.1.2&#34;&gt;&lt;/a&gt;3. 单击“NAT 设置” 修改网关：192.168.1.2&lt;/h3&gt;&lt;h2 id=&#34;二、配置服务器（server）与客户端（client）的IP地址并使互相ping通&#34;&gt;&lt;a href=&#34;#二、配置服务器（server）与客户端（client）的IP地址并使互相ping通&#34; class=&#34;headerlink&#34; title=&#34;二、配置服务器（server）与客户端（client）的IP地址并使互相ping通&#34;&gt;&lt;/a&gt;二、配置服务器（server）与客户端（client）的IP地址并使互相ping通&lt;/h2&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;su root                                                         \\进入root&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;vim /etc/sysconfig/network-scripts/ifcfg-ens33                  \\修改默认网卡脚本 一切按照实际情况&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;1-服务器（server）网络配置（添加修改命令如下）&#34;&gt;&lt;a href=&#34;#1-服务器（server）网络配置（添加修改命令如下）&#34; class=&#34;headerlink&#34; title=&#34;1. 服务器（server）网络配置（添加修改命令如下）&#34;&gt;&lt;/a&gt;1. 服务器（server）网络配置（添加修改命令如下）&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;BOOTPROTO=&lt;span class=&#34;string&#34;&gt;&amp;quot;static&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ONBOOT=&lt;span class=&#34;string&#34;&gt;&amp;quot;yes&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;IPADDR=192.168.1.10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;GATEWAY=192.168.1.2 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;NETMAKS=255.255.255.0 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;DNS1=202.96.128.86（电信）  联通：221.5.88.88  移动：211.136.192.6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;DNS2=114.114.114.114&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/04.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/04.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-客户端（client）同理&#34;&gt;&lt;a href=&#34;#2-客户端（client）同理&#34; class=&#34;headerlink&#34; title=&#34;2. 客户端（client）同理&#34;&gt;&lt;/a&gt;2. 客户端（client）同理&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;BOOTPROTO=&lt;span class=&#34;string&#34;&gt;&amp;quot;static&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ONBOOT=&lt;span class=&#34;string&#34;&gt;&amp;quot;yes&amp;quot;&lt;/span&gt; &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;IPADDR=192.168.1.10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;GATEWAY=192.168.1.2 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;NETMAKS=255.255.255.0 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;DNS1=202.96.128.86（电信）  联通：221.5.88.88  移动：211.136.192.6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;DNS2=114.114.114.114&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/05.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/05.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-服务器（Server）与客户端（Client）互相ping通&#34;&gt;&lt;a href=&#34;#3-服务器（Server）与客户端（Client）互相ping通&#34; class=&#34;headerlink&#34; title=&#34;3. 服务器（Server）与客户端（Client）互相ping通&#34;&gt;&lt;/a&gt;3. 服务器（Server）与客户端（Client）互相ping通&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/06.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/06.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三、在服务器（Server）上添加用户&#34;&gt;&lt;a href=&#34;#三、在服务器（Server）上添加用户&#34; class=&#34;headerlink&#34; title=&#34;三、在服务器（Server）上添加用户&#34;&gt;&lt;/a&gt;三、在服务器（Server）上添加用户&lt;/h2&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;useradd admin                                   \\添加管理员admin&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;passwd --stdin admin                            \\为管理员admin设置密码&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;password                                        \\输入题目要求密码&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/07.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/07.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四、在服务器（Server）修改ssh默认端口&#34;&gt;&lt;a href=&#34;#四、在服务器（Server）修改ssh默认端口&#34; class=&#34;headerlink&#34; title=&#34;四、在服务器（Server）修改ssh默认端口&#34;&gt;&lt;/a&gt;四、在服务器（Server）修改ssh默认端口&lt;/h2&gt;&lt;h3 id=&#34;1-确保虚拟机已安装openssh-server-以下命令可查询&#34;&gt;&lt;a href=&#34;#1-确保虚拟机已安装openssh-server-以下命令可查询&#34; class=&#34;headerlink&#34; title=&#34;1. 确保虚拟机已安装openssh-server 以下命令可查询&#34;&gt;&lt;/a&gt;1. 确保虚拟机已安装openssh-server 以下命令可查询&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum list installed | grep openssh-server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/08.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/08.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;若无结果就未安装，则可输入以下命令进行安装&#34;&gt;&lt;a href=&#34;#若无结果就未安装，则可输入以下命令进行安装&#34; class=&#34;headerlink&#34; title=&#34;若无结果就未安装，则可输入以下命令进行安装&#34;&gt;&lt;/a&gt;若无结果就未安装，则可输入以下命令进行安装&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;yum -y install openssh-server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;2-修改默认端口&#34;&gt;&lt;a href=&#34;#2-修改默认端口&#34; class=&#34;headerlink&#34; title=&#34;2. 修改默认端口&#34;&gt;&lt;/a&gt;2. 修改默认端口&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vim /etc/ssh/sshd_config&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/09.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/09.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-防火墙设置和修改安全上下文&#34;&gt;&lt;a href=&#34;#3-防火墙设置和修改安全上下文&#34; class=&#34;headerlink&#34; title=&#34;3. 防火墙设置和修改安全上下文&#34;&gt;&lt;/a&gt;3. 防火墙设置和修改安全上下文&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;firewall-cmd --permanent --add-port=61234/tcp               \\开启端口61234&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;firewall-cmd --reload                                       \\重启防火墙&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;semanage port -a -t ssh_port_t -p tcp 61234                 \\修改安全上下文&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;semanage port -l | grep ssh                                 \\查看修改以后的上下文&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;systemctl restart sshd                                      \\重启ssh服务&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;systemctl &lt;span class=&#34;built_in&#34;&gt;enable&lt;/span&gt; sshd                                       \\设置ssh服务开机自启&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/10.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/10.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4-客户端（Client）测试&#34;&gt;&lt;a href=&#34;#4-客户端（Client）测试&#34; class=&#34;headerlink&#34; title=&#34;4.客户端（Client）测试&#34;&gt;&lt;/a&gt;4.客户端（Client）测试&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/11.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/11.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五、指定用户免密登录&#34;&gt;&lt;a href=&#34;#五、指定用户免密登录&#34; class=&#34;headerlink&#34; title=&#34;五、指定用户免密登录&#34;&gt;&lt;/a&gt;五、指定用户免密登录&lt;/h2&gt;&lt;h3 id=&#34;1-首先在客户端（Client）生成密钥并发送到服务器（Server）&#34;&gt;&lt;a href=&#34;#1-首先在客户端（Client）生成密钥并发送到服务器（Server）&#34; class=&#34;headerlink&#34; title=&#34;1. 首先在客户端（Client）生成密钥并发送到服务器（Server）&#34;&gt;&lt;/a&gt;1. 首先在客户端（Client）生成密钥并发送到服务器（Server）&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/12.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/12.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;ssh-keygen                                      \\生成密钥 连续 按3次 Enter键&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ssh-copy-id -p 61234 admin@192.168.1.10         \\把生成的密钥传到服务器去&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;2-其次在服务器（Server）修改配置文件-禁止root用户登录和无密码登录&#34;&gt;&lt;a href=&#34;#2-其次在服务器（Server）修改配置文件-禁止root用户登录和无密码登录&#34; class=&#34;headerlink&#34; title=&#34;2. 其次在服务器（Server）修改配置文件 禁止root用户登录和无密码登录&#34;&gt;&lt;/a&gt;2. 其次在服务器（Server）修改配置文件 禁止root用户登录和无密码登录&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/13.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/13.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;vim /etc/ssh/sshd_config                        \\打开配置文件&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;systemctl restart sshd                          \\修改完重启ssh服务&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id=&#34;3-在客户端（Client）上测试&#34;&gt;&lt;a href=&#34;#3-在客户端（Client）上测试&#34; class=&#34;headerlink&#34; title=&#34;3. 在客户端（Client）上测试&#34;&gt;&lt;/a&gt;3. 在客户端（Client）上测试&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/linux/02/14.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/linux/02/14.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;&gt;&lt;br&gt; &lt;strong&gt;管理员admin成功免密登录，其他用户均无法远程访问服务器。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六、结尾&#34;&gt;&lt;a href=&#34;#六、结尾&#34; class=&#34;headerlink&#34; title=&#34;六、结尾&#34;&gt;&lt;/a&gt;六、结尾&lt;/h2&gt;&lt;p&gt;至此，实验结束。希望对你有所帮助，有任何问题请在下方留言。可以关注我的 &lt;a href=&#34;/rss/&#34;&gt;公众号以及订阅我的文章&lt;/a&gt; ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。&lt;/p&gt;
+</content>
+        <category term="服务器" />
+        <category term="Linux" />
+        <category term="CentOS" />
+        <category term="安全" />
+        <category term="SSH" />
+        <updated>2024-05-28T03:21:51.000Z</updated>
+    </entry>
+</feed>

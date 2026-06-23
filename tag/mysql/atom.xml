@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;mysql&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2024-10-15T06:24:39.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/a6b9660e.html</id>
+        <title>网站数据库中表的设计</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/a6b9660e.html"/>
+        <content type="html">&lt;h2 id=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;a href=&#34;#商品管理网站——基于PHP的动态网站设计与实现&#34; class=&#34;headerlink&#34; title=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;/a&gt;商品管理网站——基于PHP的动态网站设计与实现&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;在网站开发中，数据库的功能是用于存储和处理数据，根据我的商品管理网站需求，设计若干数据表用于存储商品的基本信息。本网站数据表如 &lt;strong&gt;表1.1&lt;/strong&gt; 所示。&lt;/p&gt;
+&lt;table width=&#34;1108&#34; border=&#34;0&#34; cellpadding=&#34;0&#34; cellspacing=&#34;0&#34; style=&#39;width:831.00pt;border-collapse:collapse;table-layout:fixed;&#39;&gt;
+   &lt;col width=&#34;127&#34; style=&#39;mso-width-source:userset;mso-width-alt:4064;&#39;/&gt;
+   &lt;col width=&#34;69&#34; style=&#39;mso-width-source:userset;mso-width-alt:2208;&#39;/&gt;
+   &lt;col width=&#34;154&#34; style=&#39;mso-width-source:userset;mso-width-alt:4928;&#39;/&gt;
+   &lt;col width=&#34;200&#34; style=&#39;mso-width-source:userset;mso-width-alt:6400;&#39;/&gt;
+   &lt;col width=&#34;199&#34; style=&#39;mso-width-source:userset;mso-width-alt:6368;&#39;/&gt;
+   &lt;col width=&#34;359&#34; style=&#39;mso-width-source:userset;mso-width-alt:11488;&#39;/&gt;
+   &lt;tr height=&#34;33.33&#34; style=&#39;height:25.00pt;mso-height-source:userset;mso-height-alt:500;&#39;&gt;
+    &lt;td class=&#34;xl65&#34; height=&#34;33.33&#34; width=&#34;127&#34; style=&#39;height:25.00pt;width:95.25pt;&#39; x:str&gt;功能&lt;/td&gt;
+    &lt;td class=&#34;xl66&#34; width=&#34;69&#34; style=&#39;width:51.75pt;&#39; x:str&gt;表名&lt;/td&gt;
+    &lt;td class=&#34;xl67&#34; width=&#34;912&#34; colspan=&#34;4&#34; style=&#39;width:684.00pt;border-right:none;border-bottom:1.0pt solid #000000;&#39; x:str&gt;表结构&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;29.33&#34; style=&#39;height:22.00pt;mso-height-source:userset;mso-height-alt:440;&#39;&gt;
+    &lt;td class=&#34;xl69&#34; height=&#34;218.33&#34; rowspan=&#34;8&#34; style=&#39;height:163.75pt;border-right:1.0pt solid #000000;border-bottom:none;&#39; x:str&gt;用户信息表&lt;/td&gt;
+    &lt;td class=&#34;xl70&#34; rowspan=&#34;8&#34; style=&#39;border-right:1.0pt solid windowtext;border-bottom:none;&#39; x:str&gt;users&lt;/td&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;字段名称&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;字段类型&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;字段大小&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;注释&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;id&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;int&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;11&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;用户编号（主键，自增）&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;username&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;varchar&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;50&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;用户名（唯一）&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;password&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;varchar&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;50&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;用户密码&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;usertype&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;varchar&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;50&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;用户类型&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;usertell&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;bigint&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;11&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;电话号码&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;usermail&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;varchar&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34; x:num&gt;50&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;邮箱地址&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;create_time&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;datetime&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;添加时间&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl73&#34; height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl74&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl77&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl75&#34;&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;32&#34; style=&#39;height:24.00pt;mso-height-source:userset;mso-height-alt:480;&#39;&gt;
+    &lt;td class=&#34;xl69&#34; height=&#34;195&#34; rowspan=&#34;7&#34; style=&#39;height:146.25pt;border-right:1.0pt solid #000000;border-bottom:none;&#39; x:str&gt;用户信息表&lt;/td&gt;
+    &lt;td class=&#34;xl70&#34; rowspan=&#34;7&#34; style=&#39;border-right:1.0pt solid windowtext;border-bottom:none;&#39; x:str&gt;shops&lt;/td&gt;
+    &lt;td class=&#34;xl71&#34; x:str&gt;字段名称&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;字段类型&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;字段大小&lt;/td&gt;
+    &lt;td class=&#34;xl72&#34; x:str&gt;注释&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl78&#34; x:str&gt;id&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;int&lt;/td&gt;
+    &lt;td class=&#34;xl79&#34; x:num&gt;11&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;商品编号（主键，自增）&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl78&#34; x:str&gt;shopname&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;vharchar&lt;/td&gt;
+    &lt;td class=&#34;xl79&#34; x:num&gt;100&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;商品名（唯一）&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl78&#34; x:str&gt;shopprice&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;int&lt;/td&gt;
+    &lt;td class=&#34;xl79&#34; x:num&gt;11&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;商品价格&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl78&#34; x:str&gt;shoptotal&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;int&lt;/td&gt;
+    &lt;td class=&#34;xl79&#34; x:num&gt;11&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;商品库存&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;27&#34; style=&#39;height:20.25pt;&#39;&gt;
+    &lt;td class=&#34;xl78&#34; x:str&gt;shoptext&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;text&lt;/td&gt;
+    &lt;td class=&#34;xl79&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl76&#34; x:str&gt;商品备注&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;28&#34; style=&#39;height:21.00pt;&#39;&gt;
+    &lt;td class=&#34;xl80&#34; x:str&gt;create_time&lt;/td&gt;
+    &lt;td class=&#34;xl81&#34; x:str&gt;datetime&lt;/td&gt;
+    &lt;td class=&#34;xl82&#34;&gt;&lt;/td&gt;
+    &lt;td class=&#34;xl81&#34; x:str&gt;添加时间&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr height=&#34;19&#34; style=&#39;height:14.25pt;&#39;&gt;
+    &lt;td height=&#34;19&#34; colspan=&#34;6&#34; style=&#39;height:14.25pt;mso-ignore:colspan;&#39;&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;![if supportMisalignedColumns]&gt;
+    &lt;tr width=&#34;0&#34; style=&#39;display:none;&#39;&gt;
+     &lt;td width=&#34;127&#34; style=&#39;width:95;&#39;&gt;&lt;/td&gt;
+     &lt;td width=&#34;69&#34; style=&#39;width:52;&#39;&gt;&lt;/td&gt;
+     &lt;td width=&#34;154&#34; style=&#39;width:116;&#39;&gt;&lt;/td&gt;
+     &lt;td width=&#34;200&#34; style=&#39;width:150;&#39;&gt;&lt;/td&gt;
+     &lt;td width=&#34;199&#34; style=&#39;width:149;&#39;&gt;&lt;/td&gt;
+     &lt;td width=&#34;359&#34; style=&#39;width:269;&#39;&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+   &lt;![endif]&gt;
+  &lt;/table&gt;
+
+&lt;center&gt;表1.1 网站数据表&lt;/center&gt;</content>
+        <category term="数据库" />
+        <category term="开发语言" />
+        <category term="MySql" />
+        <category term="PHP" />
+        <updated>2024-10-15T06:24:39.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yeminxi.github.io/posts/b176c73c.html</id>
+        <title>网站页面规划设计</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/b176c73c.html"/>
+        <content type="html">&lt;h2 id=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;a href=&#34;#商品管理网站——基于PHP的动态网站设计与实现&#34; class=&#34;headerlink&#34; title=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;/a&gt;商品管理网站——基于PHP的动态网站设计与实现&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;商品管理网站分管理员登录、用户登录两部分，其中 &lt;strong&gt;dl.html&lt;/strong&gt; 是网站的首页。&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;本网站共有18个页面，各个页面的名称和对应的功能如 &lt;strong&gt;表1.1&lt;/strong&gt; 所示。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;页面&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;功能&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;index.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;个人中心&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;user.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;用户管理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;shop.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;商品管理&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dl.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;登录调用PHP代码验证&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zc.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;注册调用PHP代码验证&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;tc.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;退出时调用PHP代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;search.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;搜索时调用PHP代码并显示&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;add_shop.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;添加商品&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;add_user.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;添加用户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;del_shop.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;删除商品时调用的PHP代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;del_user.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;删除用户时调用的PHP代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;edit_shop.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;编辑商品&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;edit_user.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;编辑用户&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;edit_people.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;编辑个人信息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;config.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;数据库信息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;con.php&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;连接数据库&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;dl.html&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;登录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zc.html&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;注册&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;center&gt;表1.1 页面的名称和对应的功能&lt;/center&gt;</content>
+        <category term="数据库" />
+        <category term="开发语言" />
+        <category term="MySql" />
+        <category term="PHP" />
+        <updated>2024-09-26T12:39:49.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yeminxi.github.io/posts/c65c243b.html</id>
+        <title>网站功能设计</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/c65c243b.html"/>
+        <content type="html">&lt;h2 id=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;a href=&#34;#商品管理网站——基于PHP的动态网站设计与实现&#34; class=&#34;headerlink&#34; title=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;/a&gt;商品管理网站——基于PHP的动态网站设计与实现&lt;/h2&gt;&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;根据我的设计，本网站分为管理员登录、用户管理模块。网站模块功能结构图如图3.1所示。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/study/graduate/02/01.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/study/graduate/02/01.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;图3.1 网站模块功能结构图&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;管理员模块：系统设一名管理员，日后可添加，为确保系统的安全性，管理员通过输入用户名、密码进入系统。本模块具有对管理员信息修改、对用户的权限修改、添加用户、修改用户、删除用户、搜索用户功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用户模块：用户可通过注册模块然后进行登录，本模块具有对用户个人信息修、商品的添加、商品的修改、商品的删除、商品的搜索的功能，用户模块是本网站的核心。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+        <category term="数据库" />
+        <category term="开发语言" />
+        <category term="MySql" />
+        <category term="PHP" />
+        <updated>2024-08-16T21:50:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://yeminxi.github.io/posts/878c6909.html</id>
+        <title>数据库表结构</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/878c6909.html"/>
+        <content type="html">&lt;h2 id=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;a href=&#34;#商品管理网站——基于PHP的动态网站设计与实现&#34; class=&#34;headerlink&#34; title=&#34;商品管理网站——基于PHP的动态网站设计与实现&#34;&gt;&lt;/a&gt;商品管理网站——基于PHP的动态网站设计与实现&lt;/h2&gt;&lt;figure class=&#34;highlight javascript&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;84&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;85&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;86&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;87&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;88&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;89&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;90&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;91&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;92&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;93&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;94&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;95&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;96&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;97&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;98&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;99&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;100&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;101&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;102&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;103&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;104&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;105&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;106&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;107&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;108&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;109&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;110&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;111&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;112&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;113&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;114&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;115&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;116&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;117&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;-- phpMyAdmin &lt;span class=&#34;variable constant_&#34;&gt;SQL&lt;/span&gt; &lt;span class=&#34;title class_&#34;&gt;Dump&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- version &lt;span class=&#34;number&#34;&gt;4.8&lt;/span&gt;&lt;span class=&#34;number&#34;&gt;.5&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- &lt;span class=&#34;attr&#34;&gt;https&lt;/span&gt;:&lt;span class=&#34;comment&#34;&gt;//www.phpmyadmin.net/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 主机： localhost&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 生成日期： &lt;span class=&#34;number&#34;&gt;2023&lt;/span&gt;-&lt;span class=&#34;number&#34;&gt;12&lt;/span&gt;-&lt;span class=&#34;number&#34;&gt;04&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;01&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;05&lt;/span&gt;:&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 服务器版本： &lt;span class=&#34;number&#34;&gt;8.0&lt;/span&gt;&lt;span class=&#34;number&#34;&gt;.12&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- &lt;span class=&#34;variable constant_&#34;&gt;PHP&lt;/span&gt; 版本： &lt;span class=&#34;number&#34;&gt;7.3&lt;/span&gt;&lt;span class=&#34;number&#34;&gt;.4&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;SET&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;SQL_MODE&lt;/span&gt; = &lt;span class=&#34;string&#34;&gt;&amp;quot;NO_AUTO_VALUE_ON_ZERO&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;SET&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;AUTOCOMMIT&lt;/span&gt; = &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;START&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TRANSACTION&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;SET&lt;/span&gt; time_zone = &lt;span class=&#34;string&#34;&gt;&amp;quot;+00:00&amp;quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET NAMES utf8mb4 */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 数据库： &lt;span class=&#34;string&#34;&gt;`www_ymx_com`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;CREATE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;DATABASE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;IF&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NOT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;EXISTS&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`www_ymx_com`&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;CHARACTER&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;SET&lt;/span&gt; utf8 &lt;span class=&#34;variable constant_&#34;&gt;COLLATE&lt;/span&gt; utf8_general_ci;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;USE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`www_ymx_com`&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- --------------------------------------------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 表的结构 &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;CREATE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;NOT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`shopname`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;varchar&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;100&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`shopprice`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`shoptotal`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`shoptext`&lt;/span&gt; text,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`create_time`&lt;/span&gt; datetime &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;) &lt;span class=&#34;variable constant_&#34;&gt;ENGINE&lt;/span&gt;=&lt;span class=&#34;title class_&#34;&gt;InnoDB&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;CHARSET&lt;/span&gt;=utf8;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 转存表中的数据 &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;INSERT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;INTO&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`shopname`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`shopprice`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`shoptotal`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`shoptext`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`create_time`&lt;/span&gt;) &lt;span class=&#34;title function_&#34;&gt;VALUES&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;4&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;柠檬茶&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;34&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;这酸爽&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:05:17&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;冰绿茶&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;3&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;22&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;好喝好喝&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:05:47&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;7&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;棒棒糖&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;12&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;好吃好吃&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:10:26&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;8&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;洗发水&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;23&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;53&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;去油去屑&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:15:04&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;9&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;沐浴露&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;32&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;26&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;干净清爽&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:16:13&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;10&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;笔记本电脑&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;2599&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;5&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;i7级游戏本&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:16:50&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;华为手机P60&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;5999&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;遥遥领先&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 06:17:45&amp;#x27;&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;12&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;玫瑰花&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;99&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;999&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;浪漫主义&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-25 06:44:44&amp;#x27;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- --------------------------------------------------------&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 表的结构 &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;CREATE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;NOT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`username`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;varchar&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;50&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`password`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;varchar&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;50&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`usertype`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;varchar&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;50&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`usertell`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;bigint&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`usermail`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;varchar&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;50&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;string&#34;&gt;`create_time`&lt;/span&gt; datetime &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;) &lt;span class=&#34;variable constant_&#34;&gt;ENGINE&lt;/span&gt;=&lt;span class=&#34;title class_&#34;&gt;InnoDB&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;DEFAULT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;CHARSET&lt;/span&gt;=utf8;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 转存表中的数据 &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;INSERT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;INTO&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`username`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`password`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`usertype`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`usertell`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`usermail`&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;`create_time`&lt;/span&gt;) &lt;span class=&#34;title function_&#34;&gt;VALUES&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;(&lt;span class=&#34;number&#34;&gt;1&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;admin&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;admin&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;管理员&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;number&#34;&gt;13888156156&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;admin@test.com&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;string&#34;&gt;&amp;#x27;2023-11-23 05:04:33&amp;#x27;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 转储表的索引&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 表的索引 &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;ALTER&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;ADD&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;PRIMARY&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;KEY&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;ADD&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;UNIQUE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;KEY&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shopname`&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`shopname`&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 表的索引 &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;ALTER&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;ADD&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;PRIMARY&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;KEY&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;ADD&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;UNIQUE&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;KEY&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`username`&lt;/span&gt; (&lt;span class=&#34;string&#34;&gt;`username`&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 在导出的表使用&lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 使用表&lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;ALTER&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`shops`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;MODIFY&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;NOT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt;, &lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt;=&lt;span class=&#34;number&#34;&gt;16&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;-- 使用表&lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;--&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;ALTER&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;TABLE&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`users`&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  &lt;span class=&#34;variable constant_&#34;&gt;MODIFY&lt;/span&gt; &lt;span class=&#34;string&#34;&gt;`id`&lt;/span&gt; &lt;span class=&#34;title function_&#34;&gt;int&lt;/span&gt;(&lt;span class=&#34;number&#34;&gt;11&lt;/span&gt;) &lt;span class=&#34;variable constant_&#34;&gt;NOT&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;NULL&lt;/span&gt; &lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt;, &lt;span class=&#34;variable constant_&#34;&gt;AUTO_INCREMENT&lt;/span&gt;=&lt;span class=&#34;number&#34;&gt;17&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;variable constant_&#34;&gt;COMMIT&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="数据库" />
+        <category term="开发语言" />
+        <category term="MySql" />
+        <category term="PHP" />
+        <updated>2024-05-28T06:19:51.000Z</updated>
+    </entry>
+</feed>

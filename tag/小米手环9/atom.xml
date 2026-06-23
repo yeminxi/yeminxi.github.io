@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;小米手环9&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2025-03-03T22:05:00.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/eb4d7b70.html</id>
+        <title>自定义表盘导航软件——对小米手环9的折腾</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/eb4d7b70.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;按需求选择教程步骤，任何操作都有&lt;code&gt;变砖&lt;/code&gt;的可能，谨慎操作！！！&lt;/strong&gt;&lt;br&gt;过新历年的时候，她给我们买了个礼物🎁&lt;a href=&#34;https://www.mi.com/prod/xiaomi-shouhuan-9&#34;&gt;小米手环9&lt;/a&gt;，我的是黑色她的是银色，不过就简单的换了个软件自带免费的表盘，后面回到家后我在B站学习了一番，她看了效果她也想弄，我说我有空弄个教程给她。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/01.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/01.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;一起换的表盘&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a href=&#34;#准备工作&#34; class=&#34;headerlink&#34; title=&#34;准备工作&#34;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;小米健康运动APP&lt;/li&gt;
+&lt;li&gt;需要一个米坛社区的账号&lt;/li&gt;
+&lt;li&gt;自定义表盘工具APP&lt;/li&gt;
+&lt;li&gt;小米健康研究&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;操作环境&#34;&gt;&lt;a href=&#34;#操作环境&#34; class=&#34;headerlink&#34; title=&#34;操作环境&#34;&gt;&lt;/a&gt;操作环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;vivo x50pro+ 版本：安卓13&lt;/li&gt;
+&lt;li&gt;自定义表盘工具 版本：6.1.5&lt;/li&gt;
+&lt;li&gt;小米健康运动 版本：3.37.3&lt;/li&gt;
+&lt;li&gt;小米健康研究 版本：1.3&lt;br&gt;&lt;strong&gt;自行在各大应用商店搜索下载&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第一步-注册米坛社区账号-并-安装自定义表盘工具&#34;&gt;&lt;a href=&#34;#第一步-注册米坛社区账号-并-安装自定义表盘工具&#34; class=&#34;headerlink&#34; title=&#34;第一步 注册米坛社区账号 并 安装自定义表盘工具&#34;&gt;&lt;/a&gt;第一步 注册&lt;code&gt;米坛社区账号&lt;/code&gt; 并 安装&lt;code&gt;自定义表盘工具&lt;/code&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;米坛社区账户注册&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;米坛社区&#34; href=&#34;https://www.bandbbs.cn/login/register&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://www.bandbbs.cn/login/register)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://www.bandbbs.cn/login/register&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://www.bandbbs.cn/login/register&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;米坛社区&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;注册链接&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;自定义表盘工具下载并安装&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;蓝奏云&#34; href=&#34;https://wanhan.lanzouu.com/iVDoj2pgo3kb&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://wanhan.lanzouu.com/iVDoj2pgo3kb)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://wanhan.lanzouu.com/iVDoj2pgo3kb&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://wanhan.lanzouu.com/iVDoj2pgo3kb&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;蓝奏云&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;密码：bi1w&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;下载完成后，打开&lt;code&gt;表盘自定义工具&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击右上角切换到&lt;code&gt;小米手环9&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击右下角&lt;code&gt;我的&lt;/code&gt;登录你的米坛社区账号&lt;/li&gt;
+&lt;li&gt;因为只是用来安装表盘所以我们选择&lt;code&gt;我的&lt;/code&gt;-&lt;code&gt;试用捐赠者功能&lt;/code&gt;试用时间是&lt;code&gt;72小时&lt;/code&gt;。当然你也可以&lt;code&gt;捐赠十块钱获取&lt;/code&gt;长期使用权&amp;#96;，毕竟官方表盘一个就要六块钱。开发者制作不易，不想花这十块钱，可以用别的软件。不要在本站辱骂开发者，会删评论。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/02.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/02.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;第一步&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第二步-获取AuthKey&#34;&gt;&lt;a href=&#34;#第二步-获取AuthKey&#34; class=&#34;headerlink&#34; title=&#34;第二步 获取AuthKey&#34;&gt;&lt;/a&gt;第二步 获取AuthKey&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;点击&lt;code&gt;工具&lt;/code&gt;板块，点击&lt;code&gt;AuthKey 读取工具（新）&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;打开&lt;code&gt;小米健康研究&lt;/code&gt;，点击&lt;code&gt;我的&lt;/code&gt;，点击&lt;code&gt;关于&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;快速点击&lt;code&gt;小米运动研究&lt;/code&gt;的Logo，在弹出的窗口中点击&lt;code&gt;确定&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;回到&lt;code&gt;表盘自定义工具&lt;/code&gt;，点击&lt;code&gt;开始读取&lt;/code&gt;，复制下方的&lt;code&gt;AuthKey&lt;/code&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/03.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/03.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;第二步&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;小米健康运动版本高于3.35.3以下请用旧版教程，推荐使用最新教程。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;第三步-蓝牙一键安装自定义表盘&#34;&gt;&lt;a href=&#34;#第三步-蓝牙一键安装自定义表盘&#34; class=&#34;headerlink&#34; title=&#34;第三步 蓝牙一键安装自定义表盘&#34;&gt;&lt;/a&gt;第三步 蓝牙一键安装自定义表盘&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;点击&lt;code&gt;探索&lt;/code&gt;板块，寻找想要下载的表盘，这里以&lt;code&gt;五子棋&lt;/code&gt;为例&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;下载&lt;/code&gt;图标，在弹出的界面中点击&lt;code&gt;蓝牙一键安装&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;打开手环，&lt;code&gt;允许&lt;/code&gt;绑定请求，若绑定失败，请强制停止&lt;code&gt;小米健康运动&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;开始搜索&lt;/code&gt;，找到并点击自己的手环。&lt;/li&gt;
+&lt;li&gt;输入刚才复制的AuthKey，点击&lt;code&gt;确定&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;开始安装&lt;/code&gt;。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/04.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/04.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;第三步&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/05.gif&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/05.gif&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;安装后效果&#34;&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;第四步-安装百度地图及其补丁&#34;&gt;&lt;a href=&#34;#第四步-安装百度地图及其补丁&#34; class=&#34;headerlink&#34; title=&#34;第四步 安装百度地图及其补丁&#34;&gt;&lt;/a&gt;第四步 安装百度地图及其补丁&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;由于作者限制请自行前往下载所需的两个文件，先回复一下帖子就可以下载了。&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;米坛社区&#34; href=&#34;https://www.bandbbs.cn/threads/12359/&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://www.bandbbs.cn/threads/12359/)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://www.bandbbs.cn/threads/12359/&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://www.bandbbs.cn/threads/12359/&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;米坛社区&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;小米手环9 快应用 百度地图&amp;补丁&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;点击&lt;code&gt;工具&lt;/code&gt;板块，点击&lt;code&gt;蓝牙一键安装&lt;/code&gt;，使用上一步骤方法连接手环&lt;/li&gt;
+&lt;li&gt;连接成功后，点击&lt;code&gt;选择文件&lt;/code&gt;，将刚刚下载的两个文件按顺序安装 .rpk .bin 点击&lt;code&gt;开始安装&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;安装完后，手环点击&lt;code&gt;允许&lt;/code&gt;，等待手环重启后，长按删除表盘。&lt;/li&gt;
+&lt;li&gt;手机上下载安装&lt;code&gt;百度地图&lt;/code&gt;，要开启百度地图的通知权限。启用导航之后，手环上的百度地图快应用会自动启动，并显示导航信息。&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;小米应用商城&#34; href=&#34;https://m.app.mi.com/details?id=com.baidu.BaiduMap&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://m.app.mi.com/details?id=com.baidu.BaiduMap)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://m.app.mi.com/details?id=com.baidu.BaiduMap&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://m.app.mi.com/details?id=com.baidu.BaiduMap&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;小米应用商城&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;百度地图&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;img src=&#34;https://images.418121.xyz/file/blog/play/03/06.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/03/06.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;第四步&#34;&gt;&lt;/li&gt;
+&lt;li&gt;更多内容请探索APP及米坛社区先&lt;a href=&#34;https://www.bilibili.com/video/BV1TM9LYwER4/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34;&gt;看看效果&lt;/a&gt;吧。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;iframe width=&#34;100%&#34; height=&#34;800&#34; src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=114100587732115&amp;bvid=BV1TM9LYwER4&amp;cid=25764109927&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;h1 id=&#34;结尾&#34;&gt;&lt;a href=&#34;#结尾&#34; class=&#34;headerlink&#34; title=&#34;结尾&#34;&gt;&lt;/a&gt;结尾&lt;/h1&gt;&lt;p&gt;至此，教程结束。希望对你有所帮助，有任何问题请在下方留言。可以关注我的 &lt;a href=&#34;/rss/&#34;&gt;公众号以及订阅我的文章&lt;/a&gt; ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。&lt;/p&gt;
+&lt;h2 id=&#34;本文参考&#34;&gt;&lt;a href=&#34;#本文参考&#34; class=&#34;headerlink&#34; title=&#34;本文参考&#34;&gt;&lt;/a&gt;本文参考&lt;/h2&gt;&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;陈少鑫同学&#34; href=&#34;https://www.bilibili.com/video/BV1BTHverEBG/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1BTHverEBG/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1BTHverEBG/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1BTHverEBG/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;陈少鑫同学&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;小米手环9下载应用和游戏，以及百度地图导航！保姆级教程！&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;拾光の星火&#34; href=&#34;https://www.bilibili.com/video/BV1mivveZEHb/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1mivveZEHb/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1mivveZEHb/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://www.bilibili.com/video/BV1mivveZEHb/?share_source=copy_web&amp;vd_source=ef955460600120088a31fc38d20c0c97&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;拾光の星火&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;『拾光』榨干小米手环9！小程序&amp;表盘如约而至！兼具简单而快捷的安装教程，快来倒腾你的手环吧~&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;</content>
+        <category term="小米手环9" />
+        <category term="百度地图" />
+        <category term="自定义表盘" />
+        <category term="安装" />
+        <updated>2025-03-03T22:05:00.000Z</updated>
+    </entry>
+</feed>

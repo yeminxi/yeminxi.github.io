@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;博客&#34; category</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2024-05-13T01:38:06.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/testing.html</id>
+        <title>Testing</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/testing.html"/>
+        <content type="html">&lt;h2 id=&#34;link标签&#34;&gt;&lt;a href=&#34;#link标签&#34; class=&#34;headerlink&#34; title=&#34;link标签&#34;&gt;&lt;/a&gt;link标签&lt;/h2&gt;&lt;div class=&#34;link-group&#34;&gt;&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;点击跳转到百度&#34; href=&#34;https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;点击跳转到百度&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;http://www.baidu.com&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;点击跳转到百度&#34; href=&#34;https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;点击跳转到百度&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;http://www.baidu.com&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;点击跳转到百度&#34; href=&#34;https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;点击跳转到百度&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;http://www.baidu.com&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;点击跳转到百度&#34; href=&#34;https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://cdn.pixabay.com/photo/2018/12/05/13/41/panda-3857754__340.jpg&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;点击跳转到百度&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;http://www.baidu.com&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;折叠框&#34;&gt;&lt;a href=&#34;#折叠框&#34; class=&#34;headerlink&#34; title=&#34;折叠框&#34;&gt;&lt;/a&gt;折叠框&lt;/h2&gt;&lt;details &gt;&lt;summary pointer&gt; 查看图片测试 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;test&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/details&gt;
+
+&lt;h2 id=&#34;复选框&#34;&gt;&lt;a href=&#34;#复选框&#34; class=&#34;headerlink&#34; title=&#34;复选框&#34;&gt;&lt;/a&gt;复选框&lt;/h2&gt;&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&#34;checkbox&#34; /&gt;
+            &lt;p&gt;纯文本测试&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;支持简单的 &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt; 语法&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox red&#39;&gt;&lt;input type=&#34;checkbox&#34; /&gt;
+            &lt;p&gt;支持自定义颜色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox green checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;绿色 + 默认选中&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox yellow checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;黄色 + 默认选中&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox cyan checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;青色 + 默认选中&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox blue checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;蓝色 + 默认选中&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox plus green checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;增加&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox minus yellow checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;减少&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox times red checked&#39;&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;叉&lt;/p&gt;
+            &lt;/div&gt;
+
+
+
+&lt;h2 id=&#34;b站&#34;&gt;&lt;a href=&#34;#b站&#34; class=&#34;headerlink&#34; title=&#34;b站&#34;&gt;&lt;/a&gt;b站&lt;/h2&gt;&lt;div style=&#34;position: relative; width: 100%; height: 0; padding-bottom: 75%;&#34;&gt;
+    &lt;iframe src=&#34;//player.bilibili.com/player.html?isOutside=true&amp;aid=802486767&amp;bvid=BV1xy4y1x7C9&amp;cid=320785114&amp;p=1&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34; style=&#34;position:absolute; height: 100%; width: 100%;&#34;&gt; &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;图片&#34;&gt;&lt;a href=&#34;#图片&#34; class=&#34;headerlink&#34; title=&#34;图片&#34;&gt;&lt;/a&gt;图片&lt;/h2&gt;&lt;div class=&#34;img-wrap&#34;&gt;&lt;div class=&#34;img-bg&#34; style=&#34;background:#1D0C04&#34;&gt;&lt;img class=&#34;img lazyload placeholder&#34; src=&#34;https://images.418121.xyz/file/1731565828569_test.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/1731565828569_test.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;设置占位背景色&#34; style=&#34;width:400px;&#34;/&gt;&lt;/div&gt;&lt;span class=&#34;image-caption&#34;&gt;设置占位背景色&lt;/span&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;链接&#34;&gt;&lt;a href=&#34;#链接&#34; class=&#34;headerlink&#34; title=&#34;链接&#34;&gt;&lt;/a&gt;链接&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://yeminxi.github.io/&#34;&gt;测试&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;表格&#34;&gt;&lt;a href=&#34;#表格&#34; class=&#34;headerlink&#34; title=&#34;表格&#34;&gt;&lt;/a&gt;表格&lt;/h2&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;第一列&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;第二列&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;第三列&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;第一列文本居中&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;第二列文本居右&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;第二列文本居左&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 id=&#34;tab事项&#34;&gt;&lt;a href=&#34;#tab事项&#34; class=&#34;headerlink&#34; title=&#34;tab事项&#34;&gt;&lt;/a&gt;tab事项&lt;/h2&gt;&lt;div class=&#34;tabs&#34; id=&#34;tab-id&#34;&gt;&lt;ul class=&#34;nav-tabs&#34;&gt;&lt;li class=&#34;tab active&#34;&gt;&lt;a class=&#34;#tab-id-1&#34;&gt;栏目1&lt;/a&gt;&lt;/li&gt;&lt;li class=&#34;tab&#34;&gt;&lt;a class=&#34;#tab-id-2&#34;&gt;栏目2&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class=&#34;tab-content&#34;&gt;&lt;div class=&#34;tab-pane active&#34; id=&#34;tab-id-1&#34;&gt;&lt;p&gt;。。。&lt;/p&gt;&lt;/div&gt;&lt;div class=&#34;tab-pane&#34; id=&#34;tab-id-2&#34;&gt;&lt;p&gt;！！！&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;text文本&#34;&gt;&lt;a href=&#34;#text文本&#34; class=&#34;headerlink&#34; title=&#34;text文本&#34;&gt;&lt;/a&gt;text文本&lt;/h2&gt;&lt;p&gt;带 &lt;u&gt;下划线&lt;/u&gt; 的文本&lt;/p&gt;
+&lt;p&gt;带 &lt;emp&gt;着重号&lt;/emp&gt; 的文本&lt;/p&gt;
+&lt;p&gt;带 &lt;wavy&gt;波浪线&lt;/wavy&gt; 的文本&lt;/p&gt;
+&lt;p&gt;带 &lt;del&gt;删除线&lt;/del&gt; 的文本&lt;/p&gt;
+&lt;p&gt;键盘样式的文本 &lt;kbd&gt;command&lt;/kbd&gt; + &lt;kbd&gt;D&lt;/kbd&gt;&lt;/p&gt;
+&lt;p&gt;密码样式的文本：&lt;psw&gt;这里没有验证码&lt;/psw&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文字颜色&#34;&gt;&lt;a href=&#34;#文字颜色&#34; class=&#34;headerlink&#34; title=&#34;文字颜色&#34;&gt;&lt;/a&gt;文字颜色&lt;/h2&gt;&lt;p&gt;这是一个简单的文字&lt;span class=&#39;p yellow&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p &#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p primary&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p info&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p warning&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p danger&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p success&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p red&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p green&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p blue&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;/p&gt;
+&lt;span class=&#39;p center green&#39;&gt;我是一个居中文字高亮&lt;/span&gt;
+&lt;p&gt;这是一个简单的文字&lt;span class=&#39;p large&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;p small danger&#39;&gt;我是一个文字高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;/p&gt;
+&lt;h2 id=&#34;radio圆形选项&#34;&gt;&lt;a href=&#34;#radio圆形选项&#34; class=&#34;headerlink&#34; title=&#34;radio圆形选项&#34;&gt;&lt;/a&gt;radio圆形选项&lt;/h2&gt;&lt;div class=&#39;checkbox&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;纯文本测试&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox checked&#39;&gt;&lt;input type=&#34;radio&#34; checked=&#34;checked&#34;/&gt;
+            &lt;p&gt;支持简单的 &lt;a href=&#34;https://guides.github.com/features/mastering-markdown/&#34;&gt;markdown&lt;/a&gt; 语法&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox red&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;支持自定义颜色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox green&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;绿色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox yellow&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;黄色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox cyan&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;青色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox blue&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;蓝色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox warning&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;warning色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox success&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;success色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox danger&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;danger色&lt;/p&gt;
+            &lt;/div&gt;
+&lt;div class=&#39;checkbox info&#39;&gt;&lt;input type=&#34;radio&#34; /&gt;
+            &lt;p&gt;info色&lt;/p&gt;
+            &lt;/div&gt;
+
+&lt;h2 id=&#34;段落文本&#34;&gt;&lt;a href=&#34;#段落文本&#34; class=&#34;headerlink&#34; title=&#34;段落文本&#34;&gt;&lt;/a&gt;段落文本&lt;/h2&gt;&lt;p class=&#39;p yellow&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p &#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p primary&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p info&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p warning&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p danger&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p success&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p red&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p green&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p blue&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p center&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p center large danger&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p center large info&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+&lt;p class=&#39;p center small&#39;&gt;我是一个文本高亮大萨达所多撒多撒多撒大多多撒多撒多撒大所多撒大多&lt;/p&gt;
+
+&lt;h2 id=&#34;文本高亮&#34;&gt;&lt;a href=&#34;#文本高亮&#34; class=&#34;headerlink&#34; title=&#34;文本高亮&#34;&gt;&lt;/a&gt;文本高亮&lt;/h2&gt;&lt;p&gt;这是一个简单的文字&lt;span class=&#39;pbg yellow&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg &#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg info&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg warning&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg danger&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg success&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg red&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg green&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg blue&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;br&gt;这是一个简单的文字&lt;span class=&#39;pbg cyan&#39;&gt;我是一个文本高亮&lt;/span&gt;，唱着我们心肠的曲折&lt;/p&gt;
+&lt;h2 id=&#34;noteblock-标签&#34;&gt;&lt;a href=&#34;#noteblock-标签&#34; class=&#34;headerlink&#34; title=&#34;noteblock 标签&#34;&gt;&lt;/a&gt;noteblock 标签&lt;/h2&gt;&lt;div class=&#34;note base&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;note quote&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;note warning&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;note success&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;note danger&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;div class=&#34;note info&#34;&gt;&lt;p&gt;&lt;strong&gt;标题（可选）&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;asdsd&lt;/p&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;note-标签&#34;&gt;&lt;a href=&#34;#note-标签&#34; class=&#34;headerlink&#34; title=&#34;note 标签&#34;&gt;&lt;/a&gt;note 标签&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;markdown默认写法，左边框颜色，随着主题色改变&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;note &#34;&gt;&lt;p&gt;我有一只小毛驴，我从来都不骑。&lt;/p&gt;&lt;/div&gt;
+
+</content>
+        <category term="语法" />
+        <category term="文档" />
+        <updated>2024-05-13T01:38:06.000Z</updated>
+    </entry>
+</feed>

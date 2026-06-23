@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;node&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2024-11-06T06:24:39.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/c88f8d39.html</id>
+        <title>给自己的网站加上Do you like me 小组件</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/c88f8d39.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;逛博客的时候发现一个很好玩的小组件Do you like me ，折腾半天才发现问题所在有感而发写下此文字，绝对不是水文&amp;#96;(&lt;em&gt;&amp;gt;﹏&amp;lt;&lt;/em&gt;)′。具体功能可在我的 &lt;strong&gt;侧边栏&lt;/strong&gt; 点击体验~&lt;/p&gt;
+&lt;h2 id=&#34;第一步&#34;&gt;&lt;a href=&#34;#第一步&#34; class=&#34;headerlink&#34; title=&#34;第一步&#34;&gt;&lt;/a&gt;第一步&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/5ime/likeMe&#34;&gt;打开项目地址&lt;/a&gt; 按照教程做就可以了，看多几次就会了，是不是很简单 (￣y▽,￣)╭ （&lt;a href=&#34;#%E6%9C%AC%E6%96%87%E5%8F%82%E8%80%83&#34;&gt;参考文章里有PHP版本&lt;/a&gt;）&lt;/p&gt;
+&lt;details &gt;&lt;summary pointer&gt; 看不会来参考我的教程 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;h3 id=&#34;1-登录-或-注册-LeanCloud-国际版-并进入控制台&#34;&gt;&lt;a href=&#34;#1-登录-或-注册-LeanCloud-国际版-并进入控制台&#34; class=&#34;headerlink&#34; title=&#34;1. 登录 或 注册 LeanCloud 国际版 并进入控制台&#34;&gt;&lt;/a&gt;1. &lt;a href=&#34;https://console.leancloud.app/login&#34;&gt;登录&lt;/a&gt; 或 &lt;a href=&#34;https://console.leancloud.app/register&#34;&gt;注册&lt;/a&gt; LeanCloud 国际版 并进入&lt;a href=&#34;https://console.leancloud.app/apps&#34;&gt;控制台&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/01.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/01.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;注册登录&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;2-点击右上角创建应用起一个你喜欢的名字，最好选免费的开发版。&#34;&gt;&lt;a href=&#34;#2-点击右上角创建应用起一个你喜欢的名字，最好选免费的开发版。&#34; class=&#34;headerlink&#34; title=&#34;2. 点击右上角创建应用起一个你喜欢的名字，最好选免费的开发版。&#34;&gt;&lt;/a&gt;2. 点击右上角创建应用起一个你喜欢的名字，最好选免费的开发版。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/02.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/02.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;创建应用&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;3-创建Class，-likeCount-。&#34;&gt;&lt;a href=&#34;#3-创建Class，-likeCount-。&#34; class=&#34;headerlink&#34; title=&#34;3. 创建Class， likeCount 。&#34;&gt;&lt;/a&gt;3. 创建Class， likeCount 。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/03.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/03.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;创建likeCount&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;4-在Class-likeCount里面新建一行。&#34;&gt;&lt;a href=&#34;#4-在Class-likeCount里面新建一行。&#34; class=&#34;headerlink&#34; title=&#34;4. 在Class likeCount里面新建一行。&#34;&gt;&lt;/a&gt;4. 在Class likeCount里面新建一行。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/04.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/04.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;在likeCount里新建一行&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;5-创建Class，-likeUser-。&#34;&gt;&lt;a href=&#34;#5-创建Class，-likeUser-。&#34; class=&#34;headerlink&#34; title=&#34;5. 创建Class， likeUser 。&#34;&gt;&lt;/a&gt;5. 创建Class， likeUser 。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/05.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/05.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;创建likeUser&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;6-到vercel部署，不想写了，教程说的很明白。&#34;&gt;&lt;a href=&#34;#6-到vercel部署，不想写了，教程说的很明白。&#34; class=&#34;headerlink&#34; title=&#34;6. 到vercel部署，不想写了，教程说的很明白。&#34;&gt;&lt;/a&gt;6. 到vercel部署，不想写了，教程说的很明白。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/06.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/06.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;到vercel部署&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/07.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/07.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;create&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/08.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/08.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;加变量，注意区分大小写，加完重新Redeploy&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/09.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/09.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;加域名就可以了，不加国内访问不了&#34;&gt;&lt;/p&gt;&lt;h3 id=&#34;7-在你的博客上引入html，就完成了。&#34;&gt;&lt;a href=&#34;#7-在你的博客上引入html，就完成了。&#34; class=&#34;headerlink&#34; title=&#34;7. 在你的博客上引入html，就完成了。&#34;&gt;&lt;/a&gt;7. 在你的博客上引入html，就完成了。&lt;/h3&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;div id=&amp;quot;likeme&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://unpkg.com/@5ime/likeme@1.0.1/static/css/likeme.css&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;script src=&amp;quot;https://unpkg.com/@5ime/likeme@1.0.1/static/js/likeme.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;script&amp;gt;new limeMe(&amp;#123; el: &amp;quot;#likeme&amp;quot;, serverURL: &amp;quot;https://your-domain.vercel.app&amp;quot;, color: &amp;quot;#ff4e6ae6&amp;quot; &amp;#125;)&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+              &lt;/div&gt;
+            &lt;/details&gt;
+&lt;h2 id=&#34;第二步&#34;&gt;&lt;a href=&#34;#第二步&#34; class=&#34;headerlink&#34; title=&#34;第二步&#34;&gt;&lt;/a&gt;第二步&lt;/h2&gt;&lt;h3 id=&#34;1-没有数据，异常。&#34;&gt;&lt;a href=&#34;#1-没有数据，异常。&#34; class=&#34;headerlink&#34; title=&#34;1. 没有数据，异常。&#34;&gt;&lt;/a&gt;1. 没有数据，异常。&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/10.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/10.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;而前端你怎么点都不行&#34;&gt;&lt;br&gt;这时候应该怎么办呢，我们去到LeanCloud里面，添加一列 count 。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/11.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/11.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;添加后回去刷新&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/12.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/12.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;有数据了&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-通常会出现acl没有权限这种，该怎么办呢？&#34;&gt;&lt;a href=&#34;#2-通常会出现acl没有权限这种，该怎么办呢？&#34; class=&#34;headerlink&#34; title=&#34;2. 通常会出现acl没有权限这种，该怎么办呢？&#34;&gt;&lt;/a&gt;2. 通常会出现acl没有权限这种，该怎么办呢？&lt;/h3&gt;&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Failed to create new object, with error message: Forbidden to add new fields by class &amp;#x27;likeUser&amp;#x27; permissions. [403 POST https://yjqopchz.api.lncldglobal.com/1.1/classes/likeUser]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;简单粗暴的方法把所有ACL权限全部改成所有用户，再去点一下奇迹发生了。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/13.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/13.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;修改ACL&#34;&gt;&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/14.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/14.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;已经成功了&#34;&gt;&lt;br&gt;然后怎么办？再把ACL改回去看看？再去试试？&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/14.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/14.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;也是一样的效果&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-通常来说点一次就应该-1点第二次的时候就应该是，你的爱意已经收到啦&#34;&gt;&lt;a href=&#34;#3-通常来说点一次就应该-1点第二次的时候就应该是，你的爱意已经收到啦&#34; class=&#34;headerlink&#34; title=&#34;3. 通常来说点一次就应该+1点第二次的时候就应该是，你的爱意已经收到啦~&#34;&gt;&lt;/a&gt;3. 通常来说点一次就应该+1点第二次的时候就应该是，你的爱意已经收到啦~&lt;/h3&gt;&lt;p&gt;我们右键打开检查或审查元素，发现点第二次的时候是报以下错，我们应该怎么办？&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;Uncaught TypeError: Cannot read properties of undefined (reading &amp;#x27;count&amp;#x27;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    at xhr.onreadystatechange (likeme.js:1:1009)&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;其实也很简单我们去问一下AI这句话是什么意思，AI给出以下回答，&lt;/p&gt;
+&lt;figure class=&#34;highlight text&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;问题分析&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;错误信息 Uncaught TypeError: Cannot read properties of undefined (reading &amp;#x27;count&amp;#x27;) 表示在 likeme.js 文件的第 1 行，大约第 1009 个字符处，你试图访问一个未定义对象的 count 属性。这个错误发生在 xhr.onreadystatechange 函数中。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;可能的原因&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;1. 服务器返回的数据不正确：服务器可能没有返回预期的 JSON 数据，或者返回的数据中没有 count 属性。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2. 数据解析失败：即使服务器返回了数据，你的代码可能未能正确解析 JSON 数据。&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3. 异步操作的时机：如果 count 属性依赖于其他异步操作的结果，确保在访问 count 属性之前，这些异步操作已经完成。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;怎么办呢？那我们去检查以下返回数据到底有什么，接下来我们直接使用 地址&amp;#x2F;like去检查一下。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/15.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/15.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;发现问题了&#34;&gt;&lt;br&gt;结合俩次刷新，发现了一个是带count的数据，一个是不带的，符合AI给出来的第一点原因。发现问题了，我们该怎么解决问题？我们去到GitHub找自己的仓库。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/16.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/16.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;找找源代码&#34;&gt;&lt;br&gt;看看源代码，找一下原因。发现代码第50行，跟问题是一样的所以我们修改一下,然后保存等待vercel的重新部署。&lt;/p&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;const data = &lt;span class=&#34;punctuation&#34;&gt;&amp;#123;&lt;/span&gt;code&lt;span class=&#34;punctuation&#34;&gt;:&lt;/span&gt; &amp;#x27;&lt;span class=&#34;number&#34;&gt;201&lt;/span&gt;&amp;#x27;&lt;span class=&#34;punctuation&#34;&gt;,&lt;/span&gt; msg&lt;span class=&#34;punctuation&#34;&gt;:&lt;/span&gt; &amp;#x27;error&amp;#x27;&lt;span class=&#34;punctuation&#34;&gt;,&lt;/span&gt; data&lt;span class=&#34;punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;punctuation&#34;&gt;&amp;#123;&lt;/span&gt;count&lt;span class=&#34;punctuation&#34;&gt;:&lt;/span&gt; &amp;#x27;你的爱意已经收到啦~&amp;#x27;&lt;span class=&#34;punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/17.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/17.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;修改&#34;&gt;&lt;br&gt;这时候我们再去试试，看看是什么效果。&lt;br&gt;&lt;img src=&#34;https://images.418121.xyz/file/blog/play/01/18.webp&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://images.418121.xyz/file/blog/play/01/18.webp&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34; alt=&#34;成功&#34;&gt;&lt;br&gt;至此，我们可以欢呼了，我们成功了。&lt;/p&gt;
+&lt;h3 id=&#34;4-html引入代码是有少量缺少的，可以用我的代码，记得更改serverURL，color也是可以改的你喜欢就好。&#34;&gt;&lt;a href=&#34;#4-html引入代码是有少量缺少的，可以用我的代码，记得更改serverURL，color也是可以改的你喜欢就好。&#34; class=&#34;headerlink&#34; title=&#34;4. html引入代码是有少量缺少的，可以用我的代码，记得更改serverURL，color也是可以改的你喜欢就好。&#34;&gt;&lt;/a&gt;4. html引入代码是有少量缺少的，可以用我的代码，记得更改serverURL，color也是可以改的你喜欢就好。&lt;/h3&gt;&lt;figure class=&#34;highlight html&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;link&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;rel&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;href&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;https://unpkg.com/@5ime/likeme@latest/static/css/likeme.css&amp;quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;src&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;https://unpkg.com/@5ime/likeme@latest/static/js/likeme.js&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;attr&#34;&gt;id&lt;/span&gt;=&lt;span class=&#34;string&#34;&gt;&amp;quot;likeme&amp;quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;language-javascript&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;    &lt;span class=&#34;title function_&#34;&gt;likeMe&lt;/span&gt;(&amp;#123;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;el&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;#likeme&amp;#x27;&lt;/span&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;serverURL&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;https://your-domain.vercel.app&amp;#x27;&lt;/span&gt;, &lt;span class=&#34;comment&#34;&gt;// 替换为你的服务端地址，结尾勿带 /&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;        &lt;span class=&#34;attr&#34;&gt;color&lt;/span&gt;: &lt;span class=&#34;string&#34;&gt;&amp;#x27;#ff9797&amp;#x27;&lt;/span&gt; &lt;span class=&#34;comment&#34;&gt;// 可选：自定义主题颜色&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;language-javascript&#34;&gt;&lt;/span&gt;&lt;span class=&#34;tag&#34;&gt;&amp;lt;/&lt;span class=&#34;name&#34;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h1 id=&#34;结尾&#34;&gt;&lt;a href=&#34;#结尾&#34; class=&#34;headerlink&#34; title=&#34;结尾&#34;&gt;&lt;/a&gt;结尾&lt;/h1&gt;&lt;p&gt;至此，教程结束。希望对你有所帮助，有任何问题请在下方留言。可以关注我的 &lt;a href=&#34;/rss/&#34;&gt;公众号以及订阅我的文章&lt;/a&gt; ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。&lt;/p&gt;
+&lt;h2 id=&#34;本文参考&#34;&gt;&lt;a href=&#34;#本文参考&#34; class=&#34;headerlink&#34; title=&#34;本文参考&#34;&gt;&lt;/a&gt;本文参考&lt;/h2&gt;&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;I Am I&#34; href=&#34;https://5ime.cn/doyoulikeme.html&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://5ime.cn/doyoulikeme.html)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://5ime.cn/doyoulikeme.html&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://5ime.cn/doyoulikeme.html&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;I Am I&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;为你的网站添加 Do you like me 小组件&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;</content>
+        <category term="Hexo" />
+        <category term="Node" />
+        <category term="Vercel" />
+        <category term="博客折腾" />
+        <updated>2024-11-06T06:24:39.000Z</updated>
+    </entry>
+</feed>

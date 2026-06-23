@@ -1,0 +1,738 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"><script async src="https://www.googletagmanager.com/gtag/js?id=G-4RBSV11VTH"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-4RBSV11VTH")</script><title>第七章 Centos 7 Linux配置ftp 实训任务1：FTP服务器加密传输 | 叶泯希·杂七杂八的🐕窝</title><link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico"><link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css"><link href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet"><link href="/js/swiper/swiper@5.4.1.min.css" rel="stylesheet"><link rel="stylesheet" href="/css/animate.min.css"><link rel="stylesheet" href="/css/style.css"><link href="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" rel="stylesheet"><link rel="stylesheet" href="/js/shareJs/share.min.css"><style>@media (max-width:992px){#waifu{display:none}}</style><script defer src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script><link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet"><script src="https://unpkg.com/jquery@3.5.1/dist/jquery.min.js"></script><script src="https://unpkg.com/vue@2.6.11/dist/vue.min.js"></script><meta name="keywords" content="叶泯希,yeminxi,博客,blog,Hexo,叶泯希博客,yeminxiblog,叶泯,yemin,叶泯博客,yeminblog,泯希，minxi,泯希博客,minxiblog"><meta name="description" content="叶泯希的个人博客,yeminxiblog"><meta name="google-site-verification" content="3ZuWaT9VtyIMszQjBZEm6YNAKoYMcZJJMhBfze3Z4qs"><meta name="baidu-site-verification" content="codeva-mWL2UQNIMt"><link href="/css/custom.css" rel="stylesheet"><link href="/css/music.min.css" rel="stylesheet"><link rel="stylesheet" href="https://font.sec.miui.com/font/css?family=MiSans:400,700:MiSans"><script defer src="/js/jz.min.js"></script><script src="https://cdn.418121.xyz/js/likeme.js"></script><script src="/js/snow.min.js"></script><script src="/js/random.js"></script><script defer src="https://um.api.418121.xyz/script.js" data-website-id="94bf7542-99b2-4de5-8e97-ac02cb9e3930" data-domains="blog.418121.xyz,yeminxi.github.io"></script><script src="https://cdn.418121.xyz/js/5.2.0.js" type="module"></script><script>!function(t,e,n,a,c,r,s){t[n]=t[n]||function(){(t[n].q=t[n].q||[]).push(arguments)},(r=e.createElement(a)).async=1,r.src="https://www.clarity.ms/tag/qwakj55ors",(s=e.getElementsByTagName(a)[0]).parentNode.insertBefore(r,s)}(window,document,"clarity","script")</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="叶泯希·杂七杂八的🐕窝" type="application/atom+xml"></head><div class="preloader_8" id="loader"><div class="container"><div class="item item-1"></div><div class="item item-2"></div><div class="item item-3"></div><div class="item item-4"></div></div></div><script>var endLoading=function(){document.body.style.overflow="auto",document.getElementById("loader").classList.add("loaded")};window.addEventListener("DOMContentLoaded",endLoading)</script><body><script defer>let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+
+  if (isDark) {
+    $(document.body).addClass('darkModel');
+  }</script><script>function loadScript(src, cb) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var HEAD = document.getElementsByTagName("head")[0] || document.documentElement;
+        var script = document.createElement("script");
+        script.setAttribute("type", "text/javascript");
+        if (cb) {
+          if (JSON.stringify(cb)) {
+            for (let p in cb) {
+              if (p == "onload") {
+                script[p] = () => {
+                  cb[p]()
+                  resolve()
+                }
+              } else {
+                script[p] = cb[p]
+                script.onload = resolve
+              }
+            }
+          } else {
+            script.onload = () => {
+              cb()
+              resolve()
+            };
+          }
+        } else {
+          script.onload = resolve
+        }
+        script.setAttribute("src", src);
+        HEAD.appendChild(script);
+      });
+    });
+  }
+
+  //https://github.com/filamentgroup/loadCSS
+  var loadCSS = function (src) {
+    return new Promise(resolve => {
+      setTimeout(function () {
+        var link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = src;
+        link.onload = resolve;
+        document.getElementsByTagName("head")[0].appendChild(link);
+      });
+    });
+  };</script><script src="/js/swiper/swiper.min.js"></script><script src="/js/swiper/vue-awesome-swiper.js"></script><script src="/js/swiper/swiper.animate1.0.3.min.js"></script><script>Vue.use(window.VueAwesomeSwiper)</script><script src="/js/vue-typed-js/index.js"></script><script src="/js/vue-seamless-scroll/index.js"></script><script src="https://unpkg.com/typed.js@2.0.11"></script><div id="safearea"><main class="main" id="pjax-container"><header class="header" id="navHeader" style="position:fixed;left:0;top:0;z-index:10;width:100%"><div class="header-content"><div class="bars"><div id="appDrawer" class="sidebar-image"><div class="drawer-box-icon"><i class="fas fa-bars" aria-hidden="true" @click="showDialogDrawer"></i></div><transition name="fade"><div class="drawer-box_mask" v-cloak style="display:none" v-show="visible" @click.self="cancelDialogDrawer"></div></transition><div class="drawer-box" :class="{'active': visible}"><div class="drawer-box-head bg-color"><img class="drawer-box-head_logo lazyload placeholder" src="/images/avatar.webp" class="lazyload placeholder" data-srcset="/images/avatar.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo"><h3 class="drawer-box-head_title">叶泯希·杂七杂八的🐕窝</h3><h5 class="drawer-box-head_desc">叶泯希的个人博客,yeminxiblog</h5></div><div class="drawer-box-content"><ul class="drawer-box-content_menu"><li class="drawer-box-content_item" style="position:relative"><a target="_blank" rel="noopener" href="https://418121.xyz/" class="drawer-menu-item-link"><i class="fas fa-book" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/" class="drawer-menu-item-link"><i class="fas fa-home" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="drawer-box-content_item" style="position:relative"><a target="_blank" rel="noopener" href="https://www.travellings.cn/go.html" class="drawer-menu-item-link"><i class="fas fa-subway" aria-hidden="true"></i> <span class="name">开往</span></a></li><li class="drawer-box-content_item" style="position:relative"><a target="_blank" rel="noopener" href="https://storeweb.cn/s/2238" class="drawer-menu-item-link"><i class="iconfont icon-method-draw-image" aria-hidden="true"></i> <span class="name">虫洞</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:toRandomPost()" class="drawer-menu-item-link"><i class="iconfont icon-suijishushengcheng" aria-hidden="true"></i> <span class="name">随机</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/links" class="drawer-menu-item-link"><i class="iconfont icon-pengyouquan" aria-hidden="true"></i> <span class="name">友链</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="/comments" class="drawer-menu-item-link"><i class="iconfont icon-liuyanban" aria-hidden="true"></i> <span class="name">留言</span></a></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(7)"><span><i class="iconfont iconfont icon-shijianxian"></i> <span class="name">文章</span></span><i class="fas fa-chevron-left arrow" :class="{'icon-rotate': isOpen(7)}" aria-hidden="true"></i></a><ul class="drawer-sub-menu" v-if="isOpen(7)"><li><a href="/archives"><i class="fas fa-archive" style="margin-top:-20px"></i> <span>归档</span></a></li><li><a href="/tags"><i class="fas fa-tags" style="margin-top:-20px"></i> <span>标签</span></a></li><li><a href="/categories"><i class="fas fa-bookmark" style="margin-top:-20px"></i> <span>分类</span></a></li></ul></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(8)"><span><i class="iconfont icon-yule"></i> <span class="name">我的</span></span><i class="fas fa-chevron-left arrow" :class="{'icon-rotate': isOpen(8)}" aria-hidden="true"></i></a><ul class="drawer-sub-menu" v-if="isOpen(8)"><li><a href="/bangumis"><i class="iconfont icon-fanju1" style="margin-top:-20px"></i> <span>追番</span></a></li><li><a href="/cinemas"><i class="iconfont icon-dianying" style="margin-top:-20px"></i> <span>追剧</span></a></li><li><a href="/music"><i class="iconfont icon-a-discbox" style="margin-top:-20px"></i> <span>音乐</span></a></li><li><a href="/gallery"><i class="iconfont icon-tuku" style="margin-top:-20px"></i> <span>图库</span></a></li></ul></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(9)"><span><i class="iconfont icon-gengduo"></i> <span class="name">更多</span></span><i class="fas fa-chevron-left arrow" :class="{'icon-rotate': isOpen(9)}" aria-hidden="true"></i></a><ul class="drawer-sub-menu" v-if="isOpen(9)"><li><a href="/about"><i class="iconfont icon-guanyuwo" style="margin-top:-20px"></i> <span>关于我</span></a></li><li><a href="/wang"><i class="iconfont icon-dog" style="margin-top:-20px"></i> <span>汪汪汪~</span></a></li><li><a target="_blank" rel="noopener" href="https://images.418121.xyz/login"><i class="iconfont icon-tuku" style="margin-top:-20px"></i> <span>我的图床</span></a></li></ul></li><li class="drawer-box-content_item" style="position:relative"><a href="javascript:;" class="drawer-menu-item-link has-children" @click="openOrCloseMenu(10)"><span><i class="fas fa-link"></i> <span class="name">镜像</span></span><i class="fas fa-chevron-left arrow" :class="{'icon-rotate': isOpen(10)}" aria-hidden="true"></i></a><ul class="drawer-sub-menu" v-if="isOpen(10)"><li><a href="https://yeminxi.github.io/"><i class="iconfont icon-github" style="margin-top:-20px"></i> <span>GitHub 主站</span></a></li><li><a target="_blank" rel="noopener" href="https://blog.418121.xyz/"><i class="fas fa-registered" style="margin-top:-20px"></i> <span>Vercel 主站二</span></a></li><li><a target="_blank" rel="noopener" href="https://cf.blog.418121.xyz/"><i class="iconfont icon-cloudflare" style="margin-top:-20px"></i> <span>Cloud 镜像站</span></a></li></ul></li></ul></div></div></div><script>var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDrawer',
+    data: {
+      visible: false,
+      top: 0,
+      openArr: [],
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      isOpen(index) {
+        if (this.openArr.includes(index)) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      openOrCloseMenu(curIndex) {
+        const index = this.openArr.indexOf(curIndex);
+        if (index !== -1) {
+          this.openArr.splice(index, 1);
+        } else {
+          this.openArr.push(curIndex);
+        }
+      },
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'width: 100%; height: 100%;overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      }
+    },
+    created() {}
+  })</script></div><div class="blog-title" id="author-avatar"><div class="avatar"><img src="/images/avatar.webp" class="lazyload placeholder" data-srcset="/images/avatar.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="logo"></div><a href="/" class="logo">叶泯希·杂七杂八的🐕窝</a></div><nav class="navbar"><ul class="menu"><li class="menu-item" style="position:relative"><a target="_blank" rel="noopener" href="https://418121.xyz/" class="menu-item-link" title="首页"><i class="fas fa-book" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="menu-item" style="position:relative"><a href="/" class="menu-item-link" title="首页"><i class="fas fa-home" aria-hidden="true"></i> <span class="name">首页</span></a></li><li class="menu-item" style="position:relative"><a target="_blank" rel="noopener" href="https://www.travellings.cn/go.html" class="menu-item-link" title="开往"><i class="fas fa-subway" aria-hidden="true"></i> <span class="name">开往</span></a></li><li class="menu-item" style="position:relative"><a target="_blank" rel="noopener" href="https://storeweb.cn/s/2238" class="menu-item-link" title="虫洞"><i class="iconfont icon-method-draw-image" aria-hidden="true"></i> <span class="name">虫洞</span></a></li><li class="menu-item" style="position:relative"><a href="javascript:toRandomPost()" class="menu-item-link" title="随机"><i class="iconfont icon-suijishushengcheng" aria-hidden="true"></i> <span class="name">随机</span></a></li><li class="menu-item" style="position:relative"><a href="/links" class="menu-item-link" title="友链"><i class="iconfont icon-pengyouquan" aria-hidden="true"></i> <span class="name">友链</span></a></li><li class="menu-item" style="position:relative"><a href="/comments" class="menu-item-link" title="留言"><i class="iconfont icon-liuyanban" aria-hidden="true"></i> <span class="name">留言</span></a></li><li class="menu-item" style="position:relative"><a href="javascript:;" class="menu-item-link" title="文章"><i class="iconfont iconfont icon-shijianxian"></i> <span class="name">文章</span><i class="fas fa-chevron-down arrow" aria-hidden="true"></i></a><ul class="sub-menu"><li><a href="/archives"><i class="fas fa-archive" style="margin-top:-20px"></i> <span>归档</span></a></li><li><a href="/tags"><i class="fas fa-tags" style="margin-top:-20px"></i> <span>标签</span></a></li><li><a href="/categories"><i class="fas fa-bookmark" style="margin-top:-20px"></i> <span>分类</span></a></li></ul></li><li class="menu-item" style="position:relative"><a href="javascript:;" class="menu-item-link" title="我的"><i class="iconfont icon-yule"></i> <span class="name">我的</span><i class="fas fa-chevron-down arrow" aria-hidden="true"></i></a><ul class="sub-menu"><li><a href="/bangumis"><i class="iconfont icon-fanju1" style="margin-top:-20px"></i> <span>追番</span></a></li><li><a href="/cinemas"><i class="iconfont icon-dianying" style="margin-top:-20px"></i> <span>追剧</span></a></li><li><a href="/music"><i class="iconfont icon-a-discbox" style="margin-top:-20px"></i> <span>音乐</span></a></li><li><a href="/gallery"><i class="iconfont icon-tuku" style="margin-top:-20px"></i> <span>图库</span></a></li></ul></li><li class="menu-item" style="position:relative"><a href="javascript:;" class="menu-item-link" title="更多"><i class="iconfont icon-gengduo"></i> <span class="name">更多</span><i class="fas fa-chevron-down arrow" aria-hidden="true"></i></a><ul class="sub-menu"><li><a href="/about"><i class="iconfont icon-guanyuwo" style="margin-top:-20px"></i> <span>关于我</span></a></li><li><a href="/wang"><i class="iconfont icon-dog" style="margin-top:-20px"></i> <span>汪汪汪~</span></a></li><li><a target="_blank" rel="noopener" href="https://images.418121.xyz/login"><i class="iconfont icon-tuku" style="margin-top:-20px"></i> <span>我的图床</span></a></li></ul></li><li class="menu-item" style="position:relative"><a href="javascript:;" class="menu-item-link" title="镜像"><i class="fas fa-link"></i> <span class="name">镜像</span><i class="fas fa-chevron-down arrow" aria-hidden="true"></i></a><ul class="sub-menu"><li><a href="https://yeminxi.github.io/"><i class="iconfont icon-github" style="margin-top:-20px"></i> <span>GitHub 主站</span></a></li><li><a target="_blank" rel="noopener" href="https://blog.418121.xyz/"><i class="fas fa-registered" style="margin-top:-20px"></i> <span>Vercel 主站二</span></a></li><li><a target="_blank" rel="noopener" href="https://cf.blog.418121.xyz/"><i class="iconfont icon-cloudflare" style="margin-top:-20px"></i> <span>Cloud 镜像站</span></a></li></ul></li></ul><div id="appSearch"><div class="search" @click="showDialog()"><i class="fas fa-search" aria-hidden="true"></i></div><transition name="fade"><div class="message-box_wrapper" style="display:none" v-cloak v-show="dialogVisible" @click.self="cancelDialogVisible()"><div class="message-box animated bounceInDown"><h2><span><i class="fas fa-search" aria-hidden="true"></i> <span class="title">本地搜索</span></span><i class="fas fa-times close" pointer style="float:right" aria-hidden="true" @click.self="cancelDialogVisible()"></i></h2><form class="site-search-form"><input type="text" placeholder="请输入关键字" id="local-search-input" @click="getSearchFile()" class="st-search-input" v-model="searchInput"></form><div class="result-wrapper"><div id="local-search-result" class="local-search-result-cls"></div></div></div></div></transition></div><script src="/js/local_search.js"></script><script>var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appSearch',
+    data: {
+      dialogVisible: false,
+      searchInput: '',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+      window.addEventListener('pjax:complete', () => {
+        this.cancelDialogVisible();
+      })
+    },
+    methods: {
+      showDialog() {
+        this.dialogVisible = true;
+        // 防止页面滚动，只能让弹框滚动
+        this.top = $(document).scrollTop()
+        body.style.cssText = 'overflow: hidden;';
+      },
+      getSearchFile() {
+        if (!this.searchInput) {
+          getSearchFile("/search.xml");
+        }
+      },
+      cancelDialogVisible() {
+        this.dialogVisible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+    },
+    created() {}
+  })</script></nav></div></header><div class="bg-dark-floor" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:-1"></div><div class="post-detail-header" id="thumbnail_canvas" style="background-repeat:no-repeat;background-size:cover;background-position:center center;position:relative;background-image:url(https://images.418121.xyz/file/blog/cover/07.webp)"><div class="post-detail-header-mask"></div><canvas id="header_canvas" style="position:absolute;bottom:0;pointer-events:none"></canvas><div class="post-detail-header_info-box"><div class="title-box"><span class="title">第七章 Centos 7 Linux配置ftp 实训任务1：FTP服务器加密传输</span></div><span class="post-detail-header_date"><i class="fas fa-calendar"></i> 发表于：2024-05-28 |</span><span class="post-detail-header_categories"><i class="iconfont iconbookmark1"></i> 分类： <a href="/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%8A%80%E6%9C%AF%E4%B8%8E%E5%BA%94%E7%94%A8/" class="post-detail-header_category">服务器技术与应用</a></span><div class="post-detail-header_wordcount"><span class="totalcount"><i class="fas fa-file-text-o"></i> 字数统计: 1.6k |</span><span class="min2read"><i class="fas fa-clock"></i> 阅读时长: 7分钟 |</span><span class="reading"><i class="fas fa-eye"></i> 阅读量：<span id="busuanzi_value_page_pv"></span></span></div></div><script defer src="/js/bubble/bubble.js"></script></div><div class="post-detail-content post-row" style="padding-top:0"><div class="main-content"><article class="post post-detail"><div class="post-content"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><em><strong>&#x3D;&#x3D;前面的DNS一定要成功才能做！！！&#x3D;&#x3D;</strong></em></p><p>实训任务1：FTP服务器加密传输 任务情境描述，某公司在需要使用vsftpd搭建一台FTP服务器，用于web站点资料的更新和公司公用文件的存放。为了保证客户机和服务器之间传输数据的保密性和完整性，公司决定使用SSL&#x2F;TLS协议加固FTP服务器，客户机和服务器之间采用SSL&#x2F;TLS协议加密数据。</p><p>虚拟机需求：1台DNS服务器（Server）、1台Web服务器（Ftp Server）、1台客户端（Client1）</p><blockquote><p><strong>在第五章的基础上继续实训</strong></p></blockquote><h2 id="FTP服务器加密传输"><a href="#FTP服务器加密传输" class="headerlink" title="FTP服务器加密传输"></a>FTP服务器加密传输</h2><blockquote><p>任务情境描述<br>某公司在需要使用vsftpd搭建一台FTP服务器，用于web站点资料的更新和公司公用文件的存放。为了保证客户机和服务器之间传输数据的保密性和完整性，公司决定使用SSL&#x2F;TLS协议加固FTP服务器，客户机和服务器之间采用SSL&#x2F;TLS协议加密数据。</p></blockquote><h2 id="任务要求："><a href="#任务要求：" class="headerlink" title="任务要求："></a>任务要求：</h2><blockquote><h3 id="1-禁止使用不安全的FTP，请使用“CA”证书颁发机构，颁发的证书，启用FTPS服务；"><a href="#1-禁止使用不安全的FTP，请使用“CA”证书颁发机构，颁发的证书，启用FTPS服务；" class="headerlink" title="1. 禁止使用不安全的FTP，请使用“CA”证书颁发机构，颁发的证书，启用FTPS服务；"></a>1. 禁止使用不安全的FTP，请使用“CA”证书颁发机构，颁发的证书，启用FTPS服务；</h3><p>Country Name (2 letter code) [XX]:CN<br>State or Province Name (fullname) []:GD<br>Locality Name (eg, city) [Default City]:GuangZhou<br>Organization Name (eg, company) [Default Company Ltd]:mydomain.com<br>Organizational Unit Name (eg, section) []:Operations Departments<br>Common Name (eg, your name or your server’s hostname)[]:ftp.mydomain.com</p><h3 id="2-使用ftp-mydomian-com域名访问服务器；"><a href="#2-使用ftp-mydomian-com域名访问服务器；" class="headerlink" title="2. 使用ftp.mydomian.com域名访问服务器；"></a>2. 使用ftp.mydomian.com域名访问服务器；</h3><h3 id="3-用户webadmin，登录ftp服务器，根目录为-webdata-；"><a href="#3-用户webadmin，登录ftp服务器，根目录为-webdata-；" class="headerlink" title="3. 用户webadmin，登录ftp服务器，根目录为&#x2F;webdata&#x2F;；"></a>3. 用户webadmin，登录ftp服务器，根目录为&#x2F;webdata&#x2F;；</h3><h3 id="4-登录后限制在自己的根目录；"><a href="#4-登录后限制在自己的根目录；" class="headerlink" title="4. 登录后限制在自己的根目录；"></a>4. 登录后限制在自己的根目录；</h3><h3 id="5-允许WEB管理员上传和下载文件，但是禁止上传后缀名为-doc-docx-xlsx的文件；"><a href="#5-允许WEB管理员上传和下载文件，但是禁止上传后缀名为-doc-docx-xlsx的文件；" class="headerlink" title="5. 允许WEB管理员上传和下载文件，但是禁止上传后缀名为.doc .docx .xlsx的文件；"></a>5. 允许WEB管理员上传和下载文件，但是禁止上传后缀名为.doc .docx .xlsx的文件；</h3><h3 id="6-限制用户的下载最大速度为100kb-s；最大同一IP在线人数为2人；"><a href="#6-限制用户的下载最大速度为100kb-s；最大同一IP在线人数为2人；" class="headerlink" title="6. 限制用户的下载最大速度为100kb&#x2F;s；最大同一IP在线人数为2人；"></a>6. 限制用户的下载最大速度为100kb&#x2F;s；最大同一IP在线人数为2人；</h3><h3 id="7-用于通过工具或者浏览器下载的最大速度不超过100kb-s；"><a href="#7-用于通过工具或者浏览器下载的最大速度不超过100kb-s；" class="headerlink" title="7.用于通过工具或者浏览器下载的最大速度不超过100kb&#x2F;s；"></a>7.用于通过工具或者浏览器下载的最大速度不超过100kb&#x2F;s；</h3><h3 id="8-一个IP地址同时登陆的用户进程-人数不超过2人。"><a href="#8-一个IP地址同时登陆的用户进程-人数不超过2人。" class="headerlink" title="8. 一个IP地址同时登陆的用户进程&#x2F;人数不超过2人。"></a>8. 一个IP地址同时登陆的用户进程&#x2F;人数不超过2人。</h3></blockquote><h2 id="一、配置Ftp服务器（Ftp-Server）的IP地址"><a href="#一、配置Ftp服务器（Ftp-Server）的IP地址" class="headerlink" title="一、配置Ftp服务器（Ftp Server）的IP地址"></a>一、配置Ftp服务器（Ftp Server）的IP地址</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">BOOTPROTO=static</span><br><span class="line">IPADDR=192.168.1.100</span><br><span class="line">GATEWAY=192.168.1.2</span><br><span class="line">NETMASK=255.255.255.0</span><br><span class="line">DNS1=192.168.1.10</span><br><span class="line">DNS2=202.96.128.86</span><br></pre></td></tr></table></figure><p><img src="https://images.418121.xyz/file/blog/study/linux/07/01.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/01.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="二、-为Ftp服务器（Ftp-Server）安装vsftp服务"><a href="#二、-为Ftp服务器（Ftp-Server）安装vsftp服务" class="headerlink" title="二、 为Ftp服务器（Ftp Server）安装vsftp服务"></a>二、 为Ftp服务器（Ftp Server）安装vsftp服务</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">yum -y install vsftpd //安装vsftp服务</span><br><span class="line">systemctl start vsftpd  //开启vsftp服务</span><br><span class="line">systemctl <span class="built_in">enable</span> vsftpd //开机自启</span><br></pre></td></tr></table></figure><p><img src="https://images.418121.xyz/file/blog/study/linux/07/02.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/02.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="三、Ftp服务器（Ftp-Server）生成证书"><a href="#三、Ftp服务器（Ftp-Server）生成证书" class="headerlink" title="三、Ftp服务器（Ftp Server）生成证书"></a>三、Ftp服务器（Ftp Server）生成证书</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">创建目录[root@webserver webserver]# <span class="built_in">mkdir</span> /etc/ssl/serverkey</span><br><span class="line">生成证书[root@webserver webserver]# openssl req -x509 -nodes -keyout /etc/ssl/serverkey/vsftpd.pem -out /etc/ssl/serverkey/vsftpd.pem -days 365 -newkey rsa:2048</span><br><span class="line">Generating a 2048 bit RSA private key</span><br><span class="line">................+++</span><br><span class="line">.....+++</span><br><span class="line">writing new private key to <span class="string">&#x27;/etc/ssl/serverkey/vsftpd.pem&#x27;</span></span><br><span class="line">-----</span><br><span class="line">You are about to be asked to enter information that will be incorporated</span><br><span class="line">into your certificate request.</span><br><span class="line">What you are about to enter is what is called a Distinguished Name or a DN.</span><br><span class="line">There are quite a few fields but you can leave some blank</span><br><span class="line">For some fields there will be a default value,</span><br><span class="line">If you enter <span class="string">&#x27;.&#x27;</span>, the field will be left blank.</span><br><span class="line">-----</span><br><span class="line">Country Name (2 letter code) [CN]:</span><br><span class="line">State or Province Name (full name) [China]:GD</span><br><span class="line">Locality Name (eg, city) [GuangZhou]:</span><br><span class="line">Organization Name (eg, company) [ymx.com]:</span><br><span class="line">Organizational Unit Name (eg, section) []:Operations Departments</span><br><span class="line">Common Name (eg, your name or your server<span class="string">&#x27;s hostname) []:ftp.ymx.com</span></span><br><span class="line"><span class="string">Email Address []:</span></span><br><span class="line"><span class="string">[root@webserver webserver]#</span></span><br></pre></td></tr></table></figure><p>图片打反了 别按照图片 按上面的文本<br><img src="https://images.418121.xyz/file/blog/study/linux/07/03.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/03.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="四、-Ftp服务器（Ftp-Server）防火墙设置"><a href="#四、-Ftp服务器（Ftp-Server）防火墙设置" class="headerlink" title="四、 Ftp服务器（Ftp Server）防火墙设置"></a>四、 Ftp服务器（Ftp Server）防火墙设置</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">允许ftp通过[root@webserver webserver]# firewall-cmd --permanent --zone=public --add-service=ftp</span><br><span class="line">success</span><br><span class="line">允许端口通过[root@webserver webserver]# firewall-cmd --permanent --zone=public --add-port=990/tcp</span><br><span class="line">success</span><br><span class="line">允许端口通过[root@webserver webserver]# firewall-cmd --permanent --zone=public --add-port=990/udp</span><br><span class="line">success</span><br><span class="line">允许端口通过[root@webserver webserver]# firewall-cmd --permanent --zone=public --add-port=40000-50000/tcp</span><br><span class="line">success</span><br><span class="line">允许端口通过[root@webserver webserver]# firewall-cmd --permanent --zone=public --add-port=40000-50000/udp</span><br><span class="line">success</span><br><span class="line">重启防火墙[root@webserver webserver]# firewall-cmd --reload </span><br><span class="line">success</span><br><span class="line">[root@webserver webserver]# </span><br><span class="line"></span><br></pre></td></tr></table></figure><p><img src="https://images.418121.xyz/file/blog/study/linux/07/04.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/04.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="五、-Ftp服务器（Ftp-Server）配置vsftp文件"><a href="#五、-Ftp服务器（Ftp-Server）配置vsftp文件" class="headerlink" title="五、 Ftp服务器（Ftp Server）配置vsftp文件"></a>五、 Ftp服务器（Ftp Server）配置vsftp文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/vsftpd/vsftpd.conf</span><br></pre></td></tr></table></figure><p>最后插入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">ssl_enable=yes</span><br><span class="line">ssl_tlsv1=yes</span><br><span class="line">ssl_sslv2=no</span><br><span class="line">ssl_sslv3=no</span><br><span class="line">rsa_private_key_file=/etc/ssl/serverkey/vsftpd.pem</span><br><span class="line">rsa_cert_file=/etc/ssl/serverkey/vsftpd.pem</span><br><span class="line">allow_anon_ssl=no</span><br><span class="line">force_local_logins_ssl=yes</span><br><span class="line">force_local_data_ssl=yes</span><br><span class="line">pasv_min_port=40000</span><br><span class="line">pasv_max_port=50000</span><br><span class="line">systemctl restart vsftpd  //重启</span><br></pre></td></tr></table></figure><p>图片打错了请按照上面文本打<br><img src="https://images.418121.xyz/file/blog/study/linux/07/05.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/05.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="六、创建用户和根目录以及虚拟用户（详情看学习通ftp虚拟用户章节-这里不做过多解释）"><a href="#六、创建用户和根目录以及虚拟用户（详情看学习通ftp虚拟用户章节-这里不做过多解释）" class="headerlink" title="六、创建用户和根目录以及虚拟用户（详情看学习通ftp虚拟用户章节 这里不做过多解释）"></a>六、创建用户和根目录以及虚拟用户（详情看学习通ftp虚拟用户章节 这里不做过多解释）</h2><p>看不懂去看ppt</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br></pre></td><td class="code"><pre><span class="line">[root@webserver webserver]# useradd webadmin -s /sbin/nologin </span><br><span class="line">[root@webserver webserver]# useradd admin -s /sbin/nologin  </span><br><span class="line">[root@webserver webserver]# passwd --stdin webadmin </span><br><span class="line">更改用户 webadmin 的密码 。</span><br><span class="line">root</span><br><span class="line">passwd：所有的身份验证令牌已经成功更新。</span><br><span class="line">[root@webserver webserver]# passwd --stdin admin</span><br><span class="line">更改用户 admin 的密码 。</span><br><span class="line">root</span><br><span class="line">passwd：所有的身份验证令牌已经成功更新。</span><br><span class="line">[root@webserver webserver]# vim /etc/vsftpd/vusr.txt </span><br><span class="line">webadmin</span><br><span class="line">root</span><br><span class="line">admin</span><br><span class="line">root</span><br><span class="line">[root@webserver webserver]# <span class="built_in">mkdir</span> -p /var/ftp/pub/ /webdata</span><br><span class="line">[root@webserver webserver]# <span class="built_in">chmod</span> 777 /webdata</span><br><span class="line">[root@webserver webserver]# <span class="built_in">chown</span> webadmin /var/ftp/pub/ /webdata</span><br><span class="line">[root@webserver webserver]# rpm -qf /usr/bin/db_load</span><br><span class="line">libdb-utils-5.3.21-24.el7.x86_64</span><br><span class="line">[root@webserver webserver]# db_load -T -t <span class="built_in">hash</span> -f /etc/vsftpd/vusr.txt /etc/vsftpd/vusr.db</span><br><span class="line">[root@webserver webserver]# file /etc/vsftpd/vusr.db</span><br><span class="line">/etc/vsftpd/vusr.db: Berkeley DB (Hash, version 9, native byte-order)</span><br><span class="line">[root@webserver webserver]# <span class="built_in">chmod</span> 600 /etc/vsftpd/vusr.*</span><br><span class="line">[root@webserver webserver]# <span class="built_in">cp</span> -p /etc/pam.d/vsftpd /etc/pam.d/vsftpd-vusr</span><br><span class="line">[root@webserver webserver]# vim /etc/pam.d/vsftpd-vusr</span><br><span class="line">auth       sufficient   /lib64/security/pam_userdb.so db=/etc/vsftpd/vusr</span><br><span class="line">account    sufficient   /lib64/security/pam_userdb.so db=/etc/vsftpd/vusr</span><br><span class="line">[root@webserver webserver]# vim /etc/vsftpd/vsftpd.conf </span><br><span class="line">local_enable=<span class="built_in">yes</span></span><br><span class="line">chroot_local_user=<span class="built_in">yes</span></span><br><span class="line">pam_service_name=vsftpd-vusr</span><br><span class="line">guest_enable=<span class="built_in">yes</span></span><br><span class="line">guest_username=webadmin</span><br><span class="line">user_config_dir=/etc/vsftpd/vconfig</span><br><span class="line">virtual_use_local_privs=<span class="built_in">yes</span></span><br><span class="line">allow_writeable_chroot=<span class="built_in">yes</span></span><br><span class="line">[root@webserver webserver]# <span class="built_in">mkdir</span> /etc/vsftpd/vconfig/</span><br><span class="line">[root@webserver webserver]# vim /etc/vsftpd/vconfig/webadmin</span><br><span class="line">local_root=/webdata</span><br><span class="line">[root@webserver webserver]# vim /etc/vsftpd/vconfig/admin</span><br><span class="line">local_root=/webdata</span><br><span class="line">write_enable=no</span><br><span class="line">[root@webserver webserver]# setsebool -P ftpd_full_access on</span><br><span class="line">[root@webserver webserver]# systemctl restart vsftpd</span><br></pre></td></tr></table></figure><h2 id="七、-使用域名登录要在Dns服务器（Dns-Server）上正反向加上一条（略过）"><a href="#七、-使用域名登录要在Dns服务器（Dns-Server）上正反向加上一条（略过）" class="headerlink" title="七、 使用域名登录要在Dns服务器（Dns Server）上正反向加上一条（略过）"></a>七、 使用域名登录要在Dns服务器（Dns Server）上正反向加上一条（略过）</h2><p><img src="https://images.418121.xyz/file/blog/study/linux/07/06.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/06.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h2 id="八、任务需求后四项Ftp服务器（Ftp-Server）上修改配置文件"><a href="#八、任务需求后四项Ftp服务器（Ftp-Server）上修改配置文件" class="headerlink" title="八、任务需求后四项Ftp服务器（Ftp Server）上修改配置文件"></a>八、任务需求后四项Ftp服务器（Ftp Server）上修改配置文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/vsftpd/vsftpd.conf</span><br><span class="line"><span class="comment">#允许WEB管理员上传和下载文件，但是禁止上传后缀名为.doc .docx .xlsx的文件；</span></span><br><span class="line">deny_file=&#123;*.doc,*.docx,*.xlsx&#125;</span><br><span class="line"><span class="comment">#限制用户的下载最大速度为100kb/s；用于通过工具或者浏览器下载的最大速度不超过100kb/s；人数为2人；</span></span><br><span class="line">local_max_rate=102400</span><br><span class="line"><span class="comment">#最大同一IP在线</span></span><br><span class="line">max_per_ip=2</span><br><span class="line"><span class="comment">#一个IP地址同时登陆的用户进程/人数不超过2人。</span></span><br><span class="line">max_clients=2</span><br><span class="line">systemctl restart vsftpd</span><br></pre></td></tr></table></figure><h2 id="九、客户端（client1）测试"><a href="#九、客户端（client1）测试" class="headerlink" title="九、客户端（client1）测试"></a>九、客户端（client1）测试</h2><h3 id="1-安装ftp服务和FileZilla"><a href="#1-安装ftp服务和FileZilla" class="headerlink" title="1. 安装ftp服务和FileZilla"></a>1. 安装ftp服务和FileZilla</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum -y install epel-release</span><br><span class="line">yum -y install filezilla</span><br></pre></td></tr></table></figure><p><img src="https://images.418121.xyz/file/blog/study/linux/07/07.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/07.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></p><h3 id="2-创建测试文件"><a href="#2-创建测试文件" class="headerlink" title="2. 创建测试文件"></a>2. 创建测试文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[root@client server]# <span class="built_in">mkdir</span> /home/server/test /*server是我的用户名，看情况来*/</span><br><span class="line">[root@client server]# <span class="built_in">chmod</span> 777  /home/server/test</span><br><span class="line">[root@client server]# <span class="built_in">cd</span> /home/server/test/</span><br><span class="line">[root@client <span class="built_in">test</span>]# vim test.txt</span><br><span class="line">[root@client <span class="built_in">test</span>]# vim test.doc</span><br><span class="line">[root@client <span class="built_in">test</span>]# vim test.docx</span><br><span class="line">[root@client <span class="built_in">test</span>]# vim test.xlsx</span><br></pre></td></tr></table></figure><h3 id="3-尝试域名带证书CA登录ftp"><a href="#3-尝试域名带证书CA登录ftp" class="headerlink" title="3. 尝试域名带证书CA登录ftp"></a>3. 尝试域名带证书CA登录ftp</h3><p><img src="https://images.418121.xyz/file/blog/study/linux/07/09.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/09.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://images.418121.xyz/file/blog/study/linux/07/08.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/08.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://images.418121.xyz/file/blog/study/linux/07/10.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/10.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br><img src="https://images.418121.xyz/file/blog/study/linux/07/11.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/11.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>登录成功！</p><h3 id="4-尝试禁止上传文件类型上传"><a href="#4-尝试禁止上传文件类型上传" class="headerlink" title="4.  尝试禁止上传文件类型上传"></a>4. 尝试禁止上传文件类型上传</h3><p><img src="https://images.418121.xyz/file/blog/study/linux/07/12.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/12.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>上传失败！</p><h3 id="5-尝试下载文件"><a href="#5-尝试下载文件" class="headerlink" title="5. 尝试下载文件"></a>5. 尝试下载文件</h3><p><img src="https://images.418121.xyz/file/blog/study/linux/07/13.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/13.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>成功！</p><h3 id="6-单IP多用户登录"><a href="#6-单IP多用户登录" class="headerlink" title="6. 单IP多用户登录"></a>6. 单IP多用户登录</h3><p><img src="https://images.418121.xyz/file/blog/study/linux/07/14.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/study/linux/07/14.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"><br>最多只能2个不能再多了！</p><h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>至此，实验结束。希望对你有所帮助，有任何问题请在下方留言。可以关注我的 <a href="/rss/">公众号以及订阅我的文章</a> ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。</p></div><div class="post-tags-categories"><div class="tags"><a href="/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/">服务器</a> <a href="/tags/Linux/">Linux</a> <a href="/tags/CentOS/">CentOS</a> <a href="/tags/%E7%BD%91%E7%BB%9C/">网络</a> <a href="/tags/FTP/">FTP</a></div></div><div class="copyright"><ul class="post-copyright"><li class="post-copyright-author"><strong>作者:</strong> 叶泯希</li><li class="post-copyright-link"><strong>文章链接:</strong> <a href="/posts/2d95345a.html" target="_blank" title="第七章 Centos 7 Linux配置ftp 实训任务1：FTP服务器加密传输">https://yeminxi.github.io/posts/2d95345a.html</a></li><li class="post-copyright-license"><strong>版权声明:</strong> 本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a> 许可协议。转载请注明出处!</li></ul><div></div></div></article><div class="post-nav"><div class="post-nav-prev post-nav-item"><div class="post-nav-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" src="https://images.418121.xyz/file/blog/cover/08.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/08.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></div><a href="/posts/660d7bf6.html" class="post-nav-link"><div class="title"><i class="fas fa-angle-left"></i> 上一篇:<div class="title-text">第八章 Centos 7 Linux配置mariadb 实训任务：部署数据库</div></div></a></div><div class="post-nav-next post-nav-item"><div class="post-nav-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" src="https://images.418121.xyz/file/blog/cover/06.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/06.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt=""></div><a href="/posts/f0f1ea42.html" class="post-nav-link"><div class="title">下一篇:<i class="fas fa-angle-right"></i><div class="title-text">第六章 Centos 7 Linux配置web 实训任务：Apache服务器部署</div></div></a></div></div><div id="appDonate" class="post-donate"><div id="donate_board" class="donate_bar center" ref="donate"><a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a></div><transition name="fade"><div class="donate-box-mask" v-cloak v-show="visible" @click="cancelDialogDrawer()"></div></transition><transition name="bounce"><div class="donate-box" v-cloak v-show="visible"><div class="donate-box_close"><i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i></div><div class="donate-box_title"><h4>你的赏识是我前进的动力</h4></div><div class="donate-box_tab"><div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">支付宝</div><div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">微信</div></div><div class="donate-box_img"><div class="AlipayImg" v-show="tabActive === 'Alipay'"><img src="/images/zfb.webp" class="lazyload placeholder" data-srcset="/images/zfb.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏"></div><div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'"><img src="/images/wx.webp" class="lazyload placeholder" data-srcset="/images/wx.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏"></div></div></div></transition></div><script>var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })</script><div class="social-share" data-sites="qq,qzone,wechat,weibo" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div><script defer src="/js/shareJs/social-share.min.js"></script><style>.social-share{margin:20px 0}</style><div id="myComment"><section id="waline-box"><div id="waline-comment"></div></section></div></div><aside id="l_side"><section class="widget side_blogger"><div class="content"><a class="avatar flat-box rectangle" href="/about/"><img src="/images/avatar.webp"></a><div class="text"><h2>叶泯希</h2><p>意义是自己赐予的</p><p><span id="jinrishici-sentence">叶泯希·杂七杂八的🐕窝</span></p><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></div><div class="social-wrapper"><a href="https://space.bilibili.com/489178597" class="social iconfont icon-bilibili-1 flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a><a href="mailto:ymx@418121.xyz" class="social iconfont icon-a-Deliverydisongfasongzhifeiji flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a><a href="https://github.com/yeminxi" class="social iconfont icon-github1 flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a><a href="/atom.xml" class="social iconfont icon-RSS flat-btn" target="_blank" rel="external nofollow noopener noreferrer"></a></div></div></section><div class="layout_sticky"><section class="widget side_toc"><header><i class="fas fa-list fa-fw" aria-hidden="true"></i> <span class="name">本文目录</span></header><div class="content"><div class="toc-main"><div class="toc-content"><div class="toc"></div></div></div></div></section><div id="toc-mobile-btn"><i class="fas fa-list-ul" aria-hidden="true"></i></div><section class="widget side_recent_post"><header><a href="/tags/"><i class="fas fa-book fa-fw" aria-hidden="true"></i> <span class="name">最新文章</span></a></header><div class="content"><div class="aside-list"><div class="aside-list-item"><div class="post-img-box"><a href="/posts/22df16a8.html" class="post-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover" data-src="https://images.418121.xyz/file/blog/cover/59.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/59.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></a></div><div class="post-date-title"><div><span class="post-date">06-20</span></div><a class="post-title" href="/posts/22df16a8.html">每天都是绝版呢———记博客二周年</a></div></div><div class="aside-list-item"><div class="post-img-box"><a href="/posts/3312bda3.html" class="post-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover" data-src="https://images.418121.xyz/file/blog/cover/58.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/58.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></a></div><div class="post-date-title"><div><span class="post-date">04-29</span></div><a class="post-title" href="/posts/3312bda3.html">海的那边，真的是自由吗？</a></div></div><div class="aside-list-item"><div class="post-img-box"><a href="/posts/5aef4efe.html" class="post-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover" data-src="https://images.418121.xyz/file/blog/cover/57.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/57.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></a></div><div class="post-date-title"><div><span class="post-date">03-25</span></div><a class="post-title" href="/posts/5aef4efe.html">放学打球</a></div></div><div class="aside-list-item"><div class="post-img-box"><a href="/posts/88731518.html" class="post-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover" data-src="https://images.418121.xyz/file/blog/cover/56.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/56.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></a></div><div class="post-date-title"><div><span class="post-date">03-25</span></div><a class="post-title" href="/posts/88731518.html">因 LeanCloud 停止对外服务，对数据迁移至 Vercel 。</a></div></div><div class="aside-list-item"><div class="post-img-box"><a href="/posts/5f2147aa.html" class="post-img" style="background-size:cover;background-position:center center"><img class="lazyload lazyload placeholder" style="width:100%;height:100%;object-fit:cover" data-src="https://images.418121.xyz/file/blog/cover/55.webp" class="lazyload placeholder" data-srcset="https://images.418121.xyz/file/blog/cover/55.webp" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt=""></a></div><div class="post-date-title"><div><span class="post-date">01-29</span></div><a class="post-title" href="/posts/5f2147aa.html">2025:得与失</a></div></div></div></div></section></div></aside><script defer src="/js/wrapImage.js"></script></div><div id="appBgSwiper" style="position:fixed;left:0;top:0;width:100%;height:100%;z-index:-2" :style="{'background-color': bgColor ? bgColor : 'transparent'}"><transition-group tag="ul" :name="names"><li v-for="(image,index) in img" :key="index" v-show="index === mark" class="bg-swiper-box"><img :src="image" class="bg-swiper-img no-lazy"></li></transition-group></div><script>var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'scale' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '/images/bj.webp';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})</script><style>.bg-swiper-box{position:absolute;display:block;width:100%;height:100%}.bg-swiper-img{object-fit:cover;width:100%;height:100%}</style><script>function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('ture') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })</script></main></div><div id="j-fish-skip" style="position:relative;height:153px;width:auto"></div><script defer>var RENDERER = {
+    POINT_INTERVAL: 5,
+    FISH_COUNT: 3,
+    MAX_INTERVAL_COUNT: 50,
+    INIT_HEIGHT_RATE: .5,
+    THRESHOLD: 50,
+    FISH_COLOR: '',
+    init: function () {
+      this.setFishColor(); this.setParameters(), this.reconstructMethods(), this.setup(), this.bindEvent(), this.render()
+    },
+    setFishColor: function () {
+      let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+      if (isDark) {
+        this.FISH_COLOR = '#222'; // 暗黑色，有时间把这整成一个变量
+      } else {
+        this.FISH_COLOR = '' || 'rgba(0,0,0,0.5)';
+      }
+    },
+    setParameters: function () {
+      this.$window = $(window), this.$container = $("#j-fish-skip"), this.$canvas = $("<canvas />"), this.context = this.$canvas.appendTo(this.$container).get(0).getContext("2d"), this.points = [], this.fishes = [], this.watchIds = []
+    },
+    createSurfacePoints: function () {
+      var t = Math.round(this.width / this.POINT_INTERVAL);
+      this.pointInterval = this.width / (t - 1), this.points.push(new SURFACE_POINT(this, 0));
+      for (var i = 1; i < t; i++) {
+        var e = new SURFACE_POINT(this, i * this.pointInterval),
+          h = this.points[i - 1];
+        e.setPreviousPoint(h), h.setNextPoint(e), this.points.push(e)
+      }
+    },
+    reconstructMethods: function () {
+      this.watchWindowSize = this.watchWindowSize.bind(this), this.jdugeToStopResize = this.jdugeToStopResize.bind(this), this.startEpicenter = this.startEpicenter.bind(this), this.moveEpicenter = this.moveEpicenter.bind(this), this.reverseVertical = this.reverseVertical.bind(this), this.render = this.render.bind(this)
+    },
+    setup: function () {
+      this.points.length = 0, this.fishes.length = 0, this.watchIds.length = 0, this.intervalCount = this.MAX_INTERVAL_COUNT, this.width = this.$container.width(), this.height = this.$container.height(), this.fishCount = this.FISH_COUNT * this.width / 500 * this.height / 500, this.$canvas.attr({
+        width: this.width,
+        height: this.height
+      }), this.reverse = !1, this.fishes.push(new FISH(this)), this.createSurfacePoints()
+    },
+    watchWindowSize: function () {
+      this.clearTimer(), this.tmpWidth = this.$window.width(), this.tmpHeight = this.$window.height(), this.watchIds.push(setTimeout(this.jdugeToStopResize, this.WATCH_INTERVAL))
+    },
+    clearTimer: function () {
+      for (; this.watchIds.length > 0;) clearTimeout(this.watchIds.pop())
+    },
+    jdugeToStopResize: function () {
+      var t = this.$window.width(),
+        i = this.$window.height(),
+        e = t == this.tmpWidth && i == this.tmpHeight;
+      this.tmpWidth = t, this.tmpHeight = i, e && this.setup()
+    },
+    bindEvent: function () {
+      this.$window.on("resize", this.watchWindowSize), this.$container.on("mouseenter", this.startEpicenter), this.$container.on("mousemove", this.moveEpicenter)
+    },
+    getAxis: function (t) {
+      var i = this.$container.offset();
+      return {
+        x: t.clientX - i.left + this.$window.scrollLeft(),
+        y: t.clientY - i.top + this.$window.scrollTop()
+      }
+    },
+    startEpicenter: function (t) {
+      this.axis = this.getAxis(t)
+    },
+    moveEpicenter: function (t) {
+      var i = this.getAxis(t);
+      this.axis || (this.axis = i), this.generateEpicenter(i.x, i.y, i.y - this.axis.y), this.axis = i
+    },
+    generateEpicenter: function (t, i, e) {
+      if (!(i < this.height / 2 - this.THRESHOLD || i > this.height / 2 + this.THRESHOLD)) {
+        var h = Math.round(t / this.pointInterval);
+        h < 0 || h >= this.points.length || this.points[h].interfere(i, e)
+      }
+    },
+    reverseVertical: function () {
+      this.reverse = !this.reverse;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].reverseVertical()
+    },
+    controlStatus: function () {
+      for (var t = 0, i = this.points.length; t < i; t++) this.points[t].updateSelf();
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].updateNeighbors();
+      this.fishes.length < this.fishCount && 0 == --this.intervalCount && (this.intervalCount = this.MAX_INTERVAL_COUNT, this.fishes.push(new FISH(this)))
+    },
+    render: function () {
+      requestAnimationFrame(this.render), this.controlStatus(), this.context.clearRect(0, 0, this.width, this.height), this.context.fillStyle = this.FISH_COLOR;
+      for (var t = 0, i = this.fishes.length; t < i; t++) this.fishes[t].render(this.context);
+      this.context.save(), this.context.globalCompositeOperation = "xor", this.context.beginPath(), this.context.moveTo(0, this.reverse ? 0 : this.height);
+      for (t = 0, i = this.points.length; t < i; t++) this.points[t].render(this.context);
+      this.context.lineTo(this.width, this.reverse ? 0 : this.height), this.context.closePath(), this.context.fill(), this.context.restore()
+    }
+  },
+  SURFACE_POINT = function (t, i) {
+    this.renderer = t, this.x = i, this.init()
+  };
+  SURFACE_POINT.prototype = {
+    SPRING_CONSTANT: .03,
+    SPRING_FRICTION: .9,
+    WAVE_SPREAD: .3,
+    ACCELARATION_RATE: .01,
+    init: function () {
+      this.initHeight = this.renderer.height * this.renderer.INIT_HEIGHT_RATE, this.height = this.initHeight, this.fy = 0, this.force = {
+        previous: 0,
+        next: 0
+      }
+    },
+    setPreviousPoint: function (t) {
+      this.previous = t
+    },
+    setNextPoint: function (t) {
+      this.next = t
+    },
+    interfere: function (t, i) {
+      this.fy = this.renderer.height * this.ACCELARATION_RATE * (this.renderer.height - this.height - t >= 0 ? -1 : 1) * Math.abs(i)
+    },
+    updateSelf: function () {
+      this.fy += this.SPRING_CONSTANT * (this.initHeight - this.height), this.fy *= this.SPRING_FRICTION, this.height += this.fy
+    },
+    updateNeighbors: function () {
+      this.previous && (this.force.previous = this.WAVE_SPREAD * (this.height - this.previous.height)), this.next && (this.force.next = this.WAVE_SPREAD * (this.height - this.next.height))
+    },
+    render: function (t) {
+      this.previous && (this.previous.height += this.force.previous, this.previous.fy += this.force.previous), this.next && (this.next.height += this.force.next, this.next.fy += this.force.next), t.lineTo(this.x, this.renderer.height - this.height)
+    }
+  };
+  var FISH = function (t) {
+    this.renderer = t, this.init()
+  };
+  FISH.prototype = {
+    GRAVITY: .4,
+    init: function () {
+      this.direction = Math.random() < .5, this.x = this.direction ? this.renderer.width + this.renderer.THRESHOLD : -this.renderer.THRESHOLD, this.previousY = this.y, this.vx = this.getRandomValue(4, 10) * (this.direction ? -1 : 1), this.renderer.reverse ? (this.y = this.getRandomValue(1 * this.renderer.height / 10, 4 * this.renderer.height / 10), this.vy = this.getRandomValue(2, 5), this.ay = this.getRandomValue(.05, .2)) : (this.y = this.getRandomValue(6 * this.renderer.height / 10, 9 * this.renderer.height / 10), this.vy = this.getRandomValue(-5, -2), this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1, this.theta = 0, this.phi = 0
+    },
+    getRandomValue: function (t, i) {
+      return t + (i - t) * Math.random()
+    },
+    reverseVertical: function () {
+      this.isOut = !this.isOut, this.ay *= -1
+    },
+    controlStatus: function (t) {
+      this.previousY = this.y, this.x += this.vx, this.y += this.vy, this.vy += this.ay, this.renderer.reverse ? this.y > this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy -= this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(.05, .2)), this.isOut = !1) : this.y < this.renderer.height * this.renderer.INIT_HEIGHT_RATE ? (this.vy += this.GRAVITY, this.isOut = !0) : (this.isOut && (this.ay = this.getRandomValue(-.2, -.05)), this.isOut = !1), this.isOut || (this.theta += Math.PI / 20, this.theta %= 2 * Math.PI, this.phi += Math.PI / 30, this.phi %= 2 * Math.PI), this.renderer.generateEpicenter(this.x + (this.direction ? -1 : 1) * this.renderer.THRESHOLD, this.y, this.y - this.previousY), (this.vx > 0 && this.x > this.renderer.width + this.renderer.THRESHOLD || this.vx < 0 && this.x < -this.renderer.THRESHOLD) && this.init()
+    },
+    render: function (t) {
+      t.save(), t.translate(this.x, this.y), t.rotate(Math.PI + Math.atan2(this.vy, this.vx)), t.scale(1, this.direction ? 1 : -1), t.beginPath(), t.moveTo(-30, 0), t.bezierCurveTo(-20, 15, 15, 10, 40, 0), t.bezierCurveTo(15, -10, -20, -15, -30, 0), t.fill(), t.save(), t.translate(40, 0), t.scale(.9 + .2 * Math.sin(this.theta), 1), t.beginPath(), t.moveTo(0, 0), t.quadraticCurveTo(5, 10, 20, 8), t.quadraticCurveTo(12, 5, 10, 0), t.quadraticCurveTo(12, -5, 20, -8), t.quadraticCurveTo(5, -10, 0, 0), t.fill(), t.restore(), t.save(), t.translate(-3, 0), t.rotate((Math.PI / 3 + Math.PI / 10 * Math.sin(this.phi)) * (this.renderer.reverse ? -1 : 1)), t.beginPath(), this.renderer.reverse ? (t.moveTo(5, 0), t.bezierCurveTo(10, 10, 10, 30, 0, 40), t.bezierCurveTo(-12, 25, -8, 10, 0, 0)) : (t.moveTo(-5, 0), t.bezierCurveTo(-10, -10, -10, -30, 0, -40), t.bezierCurveTo(12, -25, 8, -10, 0, 0)), t.closePath(), t.fill(), t.restore(), t.restore(), this.controlStatus(t)
+    }
+  }, $(function () {
+    RENDERER.init()
+    $('.dark').click(function () {
+      setTimeout(() => {
+        RENDERER.setFishColor();
+        RENDERER.context.fill();
+      });
+    })
+  });</script><div class="footer bg-color"><div class="footer-main"><div class="link"><a target="_blank" rel="noopener" href="https://space.bilibili.com/489178597" class="social"><i class="iconfont icon-bilibili" aria-hidden="true"></i></a><a href="mailto:ymx@418121.xyz" class="social"><i class="iconfont icon-a-Deliverydisongfasongzhifeiji" aria-hidden="true"></i></a><a target="_blank" rel="noopener" href="https://github.com/yeminxi" class="social"><i class="iconfont icon-github1" aria-hidden="true"></i></a><a href="/atom.xml" class="social"><i class="iconfont icon-RSS" aria-hidden="true"></i></a></div><div class="footer-copyright"><p>Copyright © 2024 - 2025 <a target="_blank" rel="noopener" href="https://github.com/yeminxi/">叶泯希</a></p></div><div class="footer-custom"></div><div><p><span id="runtime"></span><br><a target="_blank" rel="noopener" href="https://418121.xyz/" title="叶泯希的主页">个人主页</a> <a target="_blank" rel="noopener" href="https://status.418121.xyz/" title="站点监控">站点监控</a></p></div><div><p><a href="https://blogscn.fun/" title="BLOGS·CN" target="_blank"><img src="https://photo.xiangming.site/img/blogscn.png" class="lazyload placeholder" data-srcset="https://photo.xiangming.site/img/blogscn.png" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="本站已加入BLOGS·CN" style="width:auto;height:20px"></a><a href="https://www.travellings.cn/go.html" title="开往-友链助力" target="_blank"><img src="https://www.travellings.cn/assets/logo.svg" class="lazyload placeholder" data-srcset="https://www.travellings.cn/assets/logo.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="本站已加入开往-友链助力" style="width:auto;height:30px"></a></p></div><div><p><a target="_blank" href="https://hexo.io/" title="博客框架为Hexo_v7.2.0"><img src="/images/fram.svg" class="lazyload placeholder" data-srcset="/images/fram.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></a><a target="_blank" href="https://github.com/yuang01/hexo-theme-bamboo/" title="主题版本Bamboo_v3.0.9"><img src="/images/theme.svg" class="lazyload placeholder" data-srcset="/images/theme.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></a><a target="_blank" href="https://icp.gov.moe/?keyword=20245120" title="萌ICP备20245120号"><img src="/images/meng.svg" class="lazyload placeholder" data-srcset="/images/meng.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></a><a target="_blank" href="https://github.com/" title="本站项目由Github托管"><img src="/images/github.svg" class="lazyload placeholder" data-srcset="/images/github.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></a><a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"><img src="/images/4.svg" class="lazyload placeholder" data-srcset="/images/4.svg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp"></a><br></p></div></div></div><div class="dark" onclick="toggleDarkMode()"><div class="dark-content"><i class="fas" id="darkIcon" aria-hidden="true"></i></div></div><script defer>$(function() {
+    // 初始化暗黑模式状态
+    let isDark = JSON.parse(localStorage.getItem('dark')) || JSON.parse('false');
+    updateDarkModeIcon(isDark);
+  });
+
+  function toggleDarkMode() {
+    const isDark = $(document.body).hasClass('darkModel');
+    $(document.body).toggleClass('darkModel');
+    localStorage.setItem('dark', !isDark);
+    updateDarkModeIcon(!isDark);
+  }
+
+  function updateDarkModeIcon(isDark) {
+    const iconElement = document.getElementById('darkIcon');
+    if (isDark) {
+      iconElement.classList.remove('fa-moon');
+      iconElement.classList.add('fa-lightbulb');
+    } else {
+      iconElement.classList.remove('fa-lightbulb');
+      iconElement.classList.add('fa-moon');
+    }
+  }</script><div class="goTop top-btn-color" pointer><i class="fas fa-arrow-up" aria-hidden="true"></i></div><script defer src="/js/goTop.js"></script><link rel="stylesheet" href="/js/aplayer/APlayer@1.10.1.min.css"><style>.aplayer .aplayer-lrc p{display:none;font-size:12px;font-weight:700;line-height:16px!important}.aplayer .aplayer-lrc p.aplayer-lrc-current{display:none;font-size:15px;color:#42b983}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><meting-js server="netease" type="playlist" id="4930421579" fixed="true" autoplay theme="#42b983" loop order="random" preload="none" volume="1" list-folded="true"></meting-js><script defer src="https://unpkg.com/aplayer@1.10.1/dist/APlayer.min.js"></script><script defer src="https://unpkg.com/meting@2/dist/Meting.min.js"></script><script src="https://unpkg.com/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script><script async>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?22a638c481b4daa8a64c6613c83d14d4";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script async>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><script src="/js/utils/index.js"></script><script src="/js/app.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.18.2/tocbot.css"><script>var headerEl = 'h2, h3, h4',  //headers 
+    content = '.post-detail',//文章容器
+    idArr = {};  //标题数组以确定是否增加索引id
+  //add #id
+  var option = {
+    // Where to render the table of contents.
+    tocSelector: '.toc',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: content,
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: headerEl,
+    scrollSmooth: true,
+    scrollSmoothOffset: -70,
+    // headingsOffset: -($(window).height() * 0.4 - 45),
+    headingsOffset: -($(window).height() * 0.4 - 70),
+    // positionFixedSelector: '.toc-main',
+    // positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto',
+    activeLinkClass: 'is-active-link',
+    orderedList: true,
+    collapseDepth: 20,
+    // onClick: function (e) {},
+  }
+  if ($('.toc').length > 0) {
+
+    $(content).children(headerEl).each(function () {
+      //去除空格以及多余标点
+      var headerId = $(this).text().replace(/[\s|\~|`|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\_|\+|\=|\||\|\[|\]|\{|\}|\;|\:|\"|\'|\,|\<|\.|\>|\/|\?|\：|\，|\。]/g, '');
+
+      headerId = headerId.toLowerCase();
+      if (idArr[headerId]) {
+        //id已经存在
+        $(this).attr('id', headerId + '-' + idArr[headerId]);
+        idArr[headerId]++;
+      }
+      else {
+        //id未存在
+        idArr[headerId] = 1;
+        $(this).attr('id', headerId);
+      }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      tocbot.init(option);
+      mobileTocClick();
+    });
+
+  }
+
+  window.tocScrollFn = function () {
+    return bamboo.throttle(function () {
+      findHeadPosition();
+    }, 100)()
+  }
+  window.addEventListener('scroll', tocScrollFn);
+
+  const findHeadPosition = function (top) {
+    if ($('.toc-list').length <= 0) {
+      return false;
+    }
+    setTimeout(() => {  // or DOMContentLoaded 
+      autoScrollToc();
+    }, 0);
+  }
+
+  const autoScrollToc = function () {
+    const $activeItem = document.querySelector('.is-active-link');
+    const $cardToc = document.querySelector('.toc-content');
+    const activePosition = $activeItem.getBoundingClientRect().top
+    const sidebarScrollTop = $cardToc.scrollTop
+    if (activePosition > (document.documentElement.clientHeight - 100)) {
+      $cardToc.scrollTop = sidebarScrollTop + 150
+    }
+    if (activePosition < 150) {
+      $cardToc.scrollTop = sidebarScrollTop - 150
+    }
+  }
+
+  document.addEventListener('pjax:send', function () {
+    if ($('.toc').length) {
+      tocbot.destroy();
+    }
+  });
+
+  document.addEventListener('pjax:complete', function () {
+    if ($('.toc').length) {
+      tocbot.init(option);
+      mobileTocClick();
+    }
+  });
+  
+  // 手机端toc按钮点击出现目录
+  const mobileTocClick = function () {
+    const $cardTocLayout = document.getElementsByClassName('side_toc')[0];
+    const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0];
+    let right = '45px';
+    if (window.innerWidth >= 551 && window.innerWidth <= 992) {
+      right = '100px'
+    }
+    const mobileToc = {
+      open: () => {
+        $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: ' + right
+      },
+
+      close: () => {
+        $cardTocLayout.style.animation = 'toc-close .2s'
+        setTimeout(() => {
+          $cardTocLayout.style.cssText = "opacity:''; animation: ''; right: ''"
+        }, 100)
+      }
+    }
+    document.getElementById('toc-mobile-btn').addEventListener('click', () => {
+      if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
+      else mobileToc.close()
+    })
+
+    $cardToc.addEventListener('click', (e) => {
+      if (window.innerWidth < 992) { // 小于992px的时候
+        mobileToc.close()
+      }
+    })
+  }</script><style></style><script>let setHeaderClass = () => {
+    const nav = $('#navHeader');
+    const navTop = nav.outerHeight();
+    const winTop = $(window).scrollTop();
+    if(winTop > navTop) {
+      nav.addClass('header-bg-color');
+    }
+    else {
+      nav.removeClass('header-bg-color');
+    }
+  };
+
+  let scrollCollect = () => {
+    return bamboo.throttle(function (e) {
+      setHeaderClass();
+    }, 200)()
+  }
+
+  let initHeaderBg = () => {
+    setHeaderClass();
+  }
+
+  setHeaderClass();
+  window.addEventListener('scroll', scrollCollect);
+
+  document.addEventListener('pjax:send', function () {
+    window.removeEventListener('scroll', scrollCollect)
+  })
+  document.addEventListener('pjax:complete', function () {
+    window.addEventListener('scroll', scrollCollect);
+    setHeaderClass();
+  })</script><script>function loadIssuesJS(){0!=$(".post-detail").find(".issues-api").length&&loadScript("/js/issues/index.js")}$(function(){loadIssuesJS()}),document.addEventListener("pjax:complete",function(){"undefined"==typeof IssuesAPI&&loadIssuesJS()})</script><script>function loadPhotoOnlineJS(){0!=$(".post-detail").find(".getJsonPhoto-api").length&&loadScript("/js/getPhotoOnline/index.js")}$(function(){loadPhotoOnlineJS()}),document.addEventListener("pjax:complete",function(){"undefined"==typeof getPhotoJson&&loadPhotoOnlineJS()})</script><script>function loadTalkOnlineJS(){0!=$(".post-detail").find(".getJsonTalk-api").length&&(loadScript("https://cdnjs.cloudflare.com/ajax/libs/waterfall.js/1.0.2/waterfall.min.js"),loadScript("/js/getTalkOnline/index.js"))}$(function(){loadTalkOnlineJS()}),document.addEventListener("pjax:complete",function(){"undefined"==typeof getTalkJson&&loadTalkOnlineJS()})</script><script>function loadSiteOnlineJS(){0!=$(".post-detail").find(".getJsonSite-api").length&&loadScript("/js/getSiteOnline/index.js")}$(function(){loadSiteOnlineJS()}),document.addEventListener("pjax:complete",function(){"undefined"==typeof getSiteJson&&loadSiteOnlineJS()})</script><script src="/js/activate-power-mode.js"></script><script>POWERMODE.colorful=!0,POWERMODE.shake=!1,document.body.addEventListener("input",POWERMODE)</script><link rel="stylesheet" href="https://unpkg.com/v-plugs-ayu/lib/ayu.css"><script src="https://unpkg.com/v-plugs-ayu/lib/ayu.umd.min.js"></script><script src="/js/clipboard/clipboard.min.js"></script><div id="appCopy"></div><script data-pjax>var vm = new Vue({
+      el: '#appCopy',
+      data: {
+      },
+      computed: {
+      },
+      mounted() {
+        const that = this;
+        var copy = '复制';
+        /* code */
+        var initCopyCode = function () {
+          var copyHtml = '';
+          copyHtml += '<button class="btn-copy" data-clipboard-snippet="" style="position:absolute;top:0;right:0;z-index:1;">';
+          copyHtml += '<i class="fas fa-copy"></i><span>' + copy + '</span>';
+          copyHtml += '</button>';
+          $(".post-detail pre").not('.gutter pre').wrap("<div class='codeBox' style='position:relative;width:100%;'></div>")
+          $(".post-detail pre").not('.gutter pre').before(copyHtml);
+          new ClipboardJS('.btn-copy', {
+            target: function (trigger) {
+              return trigger.nextElementSibling;
+            }
+          });
+        }
+        initCopyCode();
+        $('.btn-copy').unbind('click').bind('click', function () {
+          doSomething();
+        })
+        $(document).unbind('keypress').bind('keypress', function (e) {
+          if (e.ctrlKey && e.keyCode == 67) {
+            doSomething();
+          }
+        })
+
+        function doSomething() {
+          that.$notify({
+            title: "成功",
+            content: "代码已复制，请遵守相关授权协议。",
+            type: 'success'
+          })
+        }
+      },
+      methods: {
+      },
+      created() { }
+    })</script><script defer src="https://unpkg.com/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script><script>window.lazyLoadOptions={elements_selector:".lazyload",threshold:0},window.addEventListener("LazyLoad::Initialized",function(n){window.lazyLoadInstance=n.detail.instance},!1),document.addEventListener("DOMContentLoaded",function(){lazyLoadInstance.update()}),document.addEventListener("pjax:complete",function(){lazyLoadInstance.update()})</script><script src="/js/waline/waline.min.js"></script><script>var waline;comment_el="#waline-comment",loadWaline=function(){if($(comment_el).length){var e="https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo,https://cdn.418121.xyz/my-emoji/yellow,https://cdn.418121.xyz/my-emoji/tvgif,https://cdn.418121.xyz/my-emoji/heo,https://cdn.418121.xyz/my-emoji/bq,https://cdn.418121.xyz/my-emoji/cat,https://cdn.418121.xyz/my-emoji/dbasn,https://cdn.418121.xyz/my-emoji/dhxyyssa,https://cdn.418121.xyz/my-emoji/gwmxl,https://cdn.418121.xyz/my-emoji/lnr,https://cdn.418121.xyz/my-emoji/lyy,https://cdn.418121.xyz/my-emoji/sgyzsn,https://cdn.418121.xyz/my-emoji/slo,https://cdn.418121.xyz/my-emoji/sora,https://cdn.418121.xyz/my-emoji/zcytz,https://cdn.418121.xyz/my-emoji/zzx";e=e.split(","),waline=Waline({el:comment_el,serverURL:"https://wl.api.418121.xyz/",lang:"zh-CN",vistor:"",emoji:e,login:"enable",pageSize:"10",copyright:!0})}},$(document).ready(loadWaline),document.addEventListener("pjax:complete",function(){loadWaline()})</script><script async src="/js/cursor/clicklove.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" data-pjax></script><script>var bambooSwiperTag = {};
+  function load_swiper() {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    loadCSS("https://unpkg.com/swiper@6/swiper-bundle.min.css")
+    loadScript("https://unpkg.com/swiper@6/swiper-bundle.min.js").then(() => {
+      pjax_swiper();
+    });
+  }
+
+  load_swiper();
+
+  function pjax_swiper() {
+    bambooSwiperTag.swiper = new Swiper('.post-swiper-container', {
+      slidesPerView: 'auto',
+      spaceBetween: 8,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true ? {
+        delay: 3000,
+        stopOnLastSlide: false,
+        disableOnInteraction: false,
+      } : false,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      on:{
+        init: function(){
+          swiperAnimateCache(this); //隐藏动画元素 
+          swiperAnimate(this); //初始化完成开始动画
+        }, 
+        slideChangeTransitionEnd: function(){ 
+          swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
+          //this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); 动画只展现一次，去除ani类名
+        } 
+      }
+    });
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    if (!document.querySelectorAll(".post-swiper-container")[0]) return;
+    if (typeof bambooSwiperTag.swiper === "undefined") {
+      load_swiper();
+    } else {
+      pjax_swiper();
+    }
+  });</script><script src="/js/pjax@0.2.8/index.js"></script><div class="pjax-animate"><div class="loading-circle"><div id="loader-circle"></div></div><script>window.ShowLoading=function(){$(".loading-circle").css("display","block")},window.HideLoading=function(){$(".loading-circle").css("display","none")}</script><script>document.addEventListener("pjax:complete",function(){window.HideLoading()}),document.addEventListener("pjax:send",function(){window.ShowLoading()}),document.addEventListener("pjax:error",function(){window.HideLoading()})</script></div><script>var pjax = new Pjax({
+      elements: 'a[href]:not([href^="#"]):not([href="javascript:void(0)"]):not([no-pjax])',   // 拦截正常带链接的 a 标签
+      selectors: ["#pjax-container","title"],                                   // 根据实际需要确认重载区域
+      cacheBust: false,   // url 地址追加时间戳，用以避免浏览器缓存
+      timeout: 5000
+    });
+
+    document.addEventListener('pjax:send', function (e) {
+
+      try {
+        var currentUrl = window.location.pathname;
+        var targetUrl = e.triggerElement.href;
+        var banUrl = ["/love"];
+        if (banUrl[0] != "") {
+          banUrl.forEach(item => {
+            if(currentUrl.indexOf(item) != -1 || targetUrl.indexOf(item) != -1) {
+              window.location.href = targetUrl;
+            }
+          });
+        }
+      } catch (error) {}
+
+      $(window).unbind('resize');
+      $(window).unbind('scroll');
+      $(document).unbind('scroll');
+      $(document).unbind('click');
+      $('body').unbind('click');
+
+    })
+    
+    document.addEventListener('pjax:complete', function () {
+      $('script[data-pjax], .pjax-reload script').each(function () {
+        $(this).parent().append($(this).remove());
+      });
+    });
+
+    document.addEventListener('pjax:error', function (e) {
+      window.location.href = e.triggerElement.href;
+    })
+    
+    // 刷新不从顶部开始
+    document.addEventListener("DOMContentLoaded", function () {
+      history.scrollRestoration = 'auto';
+    })</script></body></html>

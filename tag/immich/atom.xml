@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yeminxi.github.io</id>
+    <title>叶泯希·杂七杂八的🐕窝 • Posts by &#34;immich&#34; tag</title>
+    <link href="https://yeminxi.github.io" />
+    <updated>2025-04-08T07:20:08.000Z</updated>
+    <category term="语法" />
+    <category term="文档" />
+    <category term="服务器" />
+    <category term="运维" />
+    <category term="VMware" />
+    <category term="Linux" />
+    <category term="CentOS" />
+    <category term="安全" />
+    <category term="SSH" />
+    <category term="网络安全" />
+    <category term="网络协议" />
+    <category term="DHCP" />
+    <category term="网络" />
+    <category term="Samba" />
+    <category term="DNS" />
+    <category term="Apache" />
+    <category term="FTP" />
+    <category term="数据库" />
+    <category term="mariadb" />
+    <category term="开发语言" />
+    <category term="MySql" />
+    <category term="PHP" />
+    <category term="海" />
+    <category term="乱拍" />
+    <category term="交通" />
+    <category term="晚上" />
+    <category term="丁达尔效应" />
+    <category term="云" />
+    <category term="延时摄影" />
+    <category term="音音不会嘤" />
+    <category term="又到了拍云的夏天" />
+    <category term="晚霞" />
+    <category term="小公主" />
+    <category term="起风了" />
+    <category term="今天的天空特别美" />
+    <category term="奇妙能力歌" />
+    <category term="落日余晖晚霞一抹夕阳美如画" />
+    <category term="风吹一下" />
+    <category term="想把晚霞分享给你" />
+    <category term="撒野" />
+    <category term="乡野田间" />
+    <category term="山楂树之恋" />
+    <category term="治愈系风景" />
+    <category term="随手拍天空" />
+    <category term="夏日晚风" />
+    <category term="年轮" />
+    <category term="跌落暮色" />
+    <category term="囍" />
+    <category term="随拍" />
+    <category term="相机喜欢的镜头前的每一个故事" />
+    <category term="每一帧都是热爱" />
+    <category term="白山茶" />
+    <category term="爬山" />
+    <category term="这个夏天" />
+    <category term="我怕来者不是你" />
+    <category term="发呆" />
+    <category term="学校" />
+    <category term="日出" />
+    <category term="Hexo" />
+    <category term="Node" />
+    <category term="Vercel" />
+    <category term="博客折腾" />
+    <category term="玩" />
+    <category term="与好友" />
+    <category term="桌球" />
+    <category term="Solitude" />
+    <category term="钓鱼" />
+    <category term="Umami" />
+    <category term="Aiven" />
+    <category term="大山里的味道" />
+    <category term="家乡的天空" />
+    <category term="农村生活" />
+    <category term="2024年总" />
+    <category term="与女朋友" />
+    <category term="武汉" />
+    <category term="跨年" />
+    <category term="纪念日" />
+    <category term="旅行" />
+    <category term="Docker" />
+    <category term="Windows" />
+    <category term="Immich" />
+    <category term="一周年" />
+    <category term="晚霞是天空给的惊喜" />
+    <category term="落日余晖映晚霞一抹夕阳美如画" />
+    <category term="晚霞的治愈力有多强" />
+    <category term="喜欢夏日生活的每一个瞬间" />
+    <category term="暴风雨前的宁静" />
+    <category term="台风格美" />
+    <category term="雨天" />
+    <category term="城市风景一角" />
+    <category term="我的城市下雨了" />
+    <category term="蓝天白云定会如期而至" />
+    <category term="港口码头" />
+    <category term="江边吹吹风" />
+    <category term="小米手环9" />
+    <category term="百度地图" />
+    <category term="自定义表盘" />
+    <category term="安装" />
+    <category term="日余晖映晚霞一抹夕阳落美如画" />
+    <category term="青春" />
+    <category term="追光的日子" />
+    <category term="梦是会开花的云朵" />
+    <category term="云的心事只有风知道" />
+    <category term="阳光正好微风不燥该来的都在路上" />
+    <category term="2025年总" />
+    <category term="Waline" />
+    <category term="疫情" />
+    <category term="城市记忆" />
+    <category term="年味" />
+    <category term="校园" />
+    <category term="学生时代" />
+    <category term="光与影" />
+    <category term="原来梦回高中是这样的" />
+    <category term="送你一片魔法天空" />
+    <category term="愿你成为自己的太阳" />
+    <category term="二周年" />
+    <entry>
+        <id>https://yeminxi.github.io/posts/e96fa9ec.html</id>
+        <title>Windows 安装 Docker 部署 Immich</title>
+        <link rel="alternate" href="https://yeminxi.github.io/posts/e96fa9ec.html"/>
+        <content type="html">&lt;h1 id=&#34;前言&#34;&gt;&lt;a href=&#34;#前言&#34; class=&#34;headerlink&#34; title=&#34;前言&#34;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;我有挺多图片的，想搭建个图片管理工具奈何没有服务器，也没有 Nas ，干脆就笔记本电脑上。&lt;br&gt;打算用 Windows 装个 Docker 再在里面装个 Immich 。&lt;br&gt;给位佬友们有什么好推荐的吗，最好就能放在托管平台上面的，但是我 &lt;psw&gt;不想花钱&#39;&lt;/psw&gt; 。&lt;br&gt;别问为什么没有图片，懒得截。&lt;/p&gt;
+&lt;h2 id=&#34;环境&#34;&gt;&lt;a href=&#34;#环境&#34; class=&#34;headerlink&#34; title=&#34;环境&#34;&gt;&lt;/a&gt;环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Windows 11&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;准备工作&#34;&gt;&lt;a href=&#34;#准备工作&#34; class=&#34;headerlink&#34; title=&#34;准备工作&#34;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;开启电脑的功能 &lt;strong&gt;Hyper-V&lt;/strong&gt; 和 &lt;strong&gt;适用于 Linux 的 Windows 子系统和虚拟机平台&lt;/strong&gt;&lt;ol&gt;
+&lt;li&gt;打开控制面板 -&amp;gt; 程序 -&amp;gt; 程序和功能 -&amp;gt; 启用或关闭 Windows 功能&lt;/li&gt;
+&lt;li&gt;Hyper-V 和 适用于 Linux 的 Windows 子系统和虚拟机平台 （勾选）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docker.com/&#34;&gt;去官网下载 Docker&lt;/a&gt;并安装 （速度有点慢自行想办法）&lt;ol&gt;
+&lt;li&gt;无脑点 &lt;strong&gt;OK&lt;/strong&gt; 然后等&lt;/li&gt;
+&lt;li&gt;安装完成点 &lt;strong&gt;Close&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;在桌面找到蓝色小鲸鱼打开它&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Accept（同意）&lt;/strong&gt; 一些协议 &lt;/li&gt;
+&lt;li&gt;提示需要登陆，感觉没必要可以点右上角 &lt;strong&gt;Skip（跳过）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;调查问卷 &lt;strong&gt;Skip（跳过）&lt;/strong&gt; 就行&lt;/li&gt;
+&lt;li&gt;更改 &lt;strong&gt;Docker&lt;/strong&gt; 语言&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asxez/DockerDesktop-CN&#34;&gt;点击这里去下载汉化包&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;关闭Docker Desktop&lt;/li&gt;
+&lt;li&gt;在Docker安装目录找到app.asar文件并将其备份，防止出现意外。&lt;ul&gt;
+&lt;li&gt;Windows下默认为C:\Program Files\Docker\Docker\frontend\resources&lt;/li&gt;
+&lt;li&gt;Macos下默认为&amp;#x2F;Applications&amp;#x2F;Docker.app&amp;#x2F;Contents&amp;#x2F;MacOS&amp;#x2F;Docker Desktop.app&amp;#x2F;Contents&amp;#x2F;Resources&lt;/li&gt;
+&lt;li&gt;Ubuntu&amp;#x2F;Debian下默认为&amp;#x2F;opt&amp;#x2F;docker-desktop&amp;#x2F;resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;将下载的asar文件改名为app.asar后替换原文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;打开终端CMD输入 &lt;strong&gt;docker –version&lt;/strong&gt; &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;PS C:\Users\59974&amp;gt; docker --version&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Docker version 28.0.4, build b8034c0&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;安装成功&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;安装-Immich&#34;&gt;&lt;a href=&#34;#安装-Immich&#34; class=&#34;headerlink&#34; title=&#34;安装 Immich&#34;&gt;&lt;/a&gt;安装 Immich&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;新建 &lt;strong&gt;F:&amp;#x2F;web&amp;#x2F;immich&lt;/strong&gt; 文件夹（全英文路径）&lt;/li&gt;
+&lt;li&gt;下载最新的配置文件，我写了个脚本双击运行即可 &lt;strong&gt;updatedownload.bat&lt;/strong&gt;&lt;br&gt; &lt;figure class=&#34;highlight bat&#34;&gt;&lt;figcaption&gt;&lt;span&gt;F:/web/immich/updatedownload.bat&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;@&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; off&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 设置基地址&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;set&lt;/span&gt; BASE_URL=https://github.com/immich-app/immich/releases/latest/download/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 下载 docker-compose.yml 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 正在下载 docker-compose.yml ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;powershell -Command &amp;quot;Invoke-WebRequest -Uri &amp;#x27;&lt;span class=&#34;variable&#34;&gt;%BASE_URL%&lt;/span&gt;docker-compose.yml&amp;#x27; -OutFile &amp;#x27;docker-compose.yml&amp;#x27;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;neq&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 下载 docker-compose.yml 失败！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;exit&lt;/span&gt; /b &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 下载 .env 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 正在下载 .env 文件 ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;powershell -Command &amp;quot;Invoke-WebRequest -Uri &amp;#x27;&lt;span class=&#34;variable&#34;&gt;%BASE_URL%&lt;/span&gt;example.env&amp;#x27; -OutFile &amp;#x27;.env&amp;#x27;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;neq&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 下载 .env 失败！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;exit&lt;/span&gt; /b &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 下载 hwaccel.ml.yml 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 正在下载 hwaccel.ml.yml ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;powershell -Command &amp;quot;Invoke-WebRequest -Uri &amp;#x27;&lt;span class=&#34;variable&#34;&gt;%BASE_URL%&lt;/span&gt;hwaccel.ml.yml&amp;#x27; -OutFile &amp;#x27;hwaccel.ml.yml&amp;#x27;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;neq&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 下载 hwaccel.ml.yml 失败！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;exit&lt;/span&gt; /b &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 下载 hwaccel.transcoding.yml 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 正在下载 hwaccel.transcoding.yml ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;powershell -Command &amp;quot;Invoke-WebRequest -Uri &amp;#x27;&lt;span class=&#34;variable&#34;&gt;%BASE_URL%&lt;/span&gt;hwaccel.transcoding.yml&amp;#x27; -OutFile &amp;#x27;hwaccel.transcoding.yml&amp;#x27;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;neq&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 下载 hwaccel.transcoding.yml 失败！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;exit&lt;/span&gt; /b &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;REM 下载 prometheus.yml 文件&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 正在下载 prometheus.yml ...&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;powershell -Command &amp;quot;Invoke-WebRequest -Uri &amp;#x27;&lt;span class=&#34;variable&#34;&gt;%BASE_URL%&lt;/span&gt;prometheus.yml&amp;#x27; -OutFile &amp;#x27;prometheus.yml&amp;#x27;&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt; &lt;span class=&#34;keyword&#34;&gt;neq&lt;/span&gt; &lt;span class=&#34;number&#34;&gt;0&lt;/span&gt; (&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 下载 prometheus.yml 失败！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &lt;span class=&#34;keyword&#34;&gt;exit&lt;/span&gt; /b &lt;span class=&#34;variable&#34;&gt;%ERRORLEVEL%&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;echo&lt;/span&gt; 所有文件下载完成！&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;built_in&#34;&gt;pause&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;修改 &lt;strong&gt;F:&amp;#x2F;web&amp;#x2F;immich&amp;#x2F;.env&lt;/strong&gt; 文件（你不想改数据库密码可跳过）&lt;br&gt; &lt;figure class=&#34;highlight diff&#34;&gt;&lt;figcaption&gt;&lt;span&gt;F:/web/immich/.env&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;  # To set a timezone, uncomment the next line and change Etc/UTC to a TZ identifier from this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;- # TZ=Etc/UTC&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+ TZ=Asia/Shanghai&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  # Connection secret for postgres. You should change it to a random password&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  # Please use only the characters `A-Za-z0-9`, without special characters or spaces&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;- DB_PASSWORD=postgres&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+ DB_PASSWORD=密码&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;运行安装代码&lt;br&gt; &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;docker compose up -d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;打开 &lt;strong&gt;&lt;a href=&#34;http://127.0.0.1:2283/&#34;&gt;http://127.0.0.1:2283&lt;/a&gt;&lt;/strong&gt;（本机IP地址），显示 &lt;strong&gt;欢迎使用 Immich&lt;/strong&gt; 界面即部署成功。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;进阶操作&#34;&gt;&lt;a href=&#34;#进阶操作&#34; class=&#34;headerlink&#34; title=&#34;进阶操作&#34;&gt;&lt;/a&gt;进阶操作&lt;/h2&gt;&lt;h3 id=&#34;1-更改模型，及文件路径&#34;&gt;&lt;a href=&#34;#1-更改模型，及文件路径&#34; class=&#34;headerlink&#34; title=&#34;1. 更改模型，及文件路径&#34;&gt;&lt;/a&gt;1. 更改模型，及文件路径&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;映射外部相册文件夹，更改模型&lt;br&gt; &lt;figure class=&#34;highlight diff&#34;&gt;&lt;figcaption&gt;&lt;span&gt;F:/web/immich/docker-compose.yml&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;services:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    immich-server:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    container_name: immich_server&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    image: ghcr.io/immich-app/immich-server:$&amp;#123;IMMICH_VERSION:-release&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    # extends:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    #   file: hwaccel.transcoding.yml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    #   service: cpu # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      extends:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      file: hwaccel.transcoding.yml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      service: nvenc # set to one of [nvenc, quicksync, rkmpp, vaapi, vaapi-wsl] for accelerated transcoding&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    volumes:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        # Do not edit the next line. If you want to change the media storage location on your system, edit the value of UPLOAD_LOCATION in the .env file&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        - $&amp;#123;UPLOAD_LOCATION&amp;#125;:/usr/src/app/upload&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        - /etc/localtime:/etc/localtime:ro&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      - F:/together:/mnt/media:ro&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    immich-machine-learning:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    container_name: immich_machine_learning&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # For hardware acceleration, add one of -[armnn, cuda, rocm, openvino, rknn] to the image tag.&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    # Example tag: $&amp;#123;IMMICH_VERSION:-release&amp;#125;-cuda&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    image: ghcr.io/immich-app/immich-machine-learning:$&amp;#123;IMMICH_VERSION:-release&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    # extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    #   file: hwaccel.ml.yml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;deletion&#34;&gt;-    #   service: cpu # set to one of [armnn, cuda, rocm, openvino, openvino-wsl, rknn] for accelerated inference - use the `-wsl` version for WSL2 where applicable&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+    extends: # uncomment this section for hardware acceleration - see https://immich.app/docs/features/ml-hardware-acceleration&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      file: hwaccel.ml.yml&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      service: cuda # set to one of [armnn, cuda, rocm, openvino, openvino-wsl, rknn] for accelerated inference - use the `-wsl` version for WSL2 where applicable&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    volumes:&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;addition&#34;&gt;+      - F:/web/model-cache:/cache&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;下载模型（自行配置SSH）&lt;br&gt; &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://huggingface.co/immich-app/buffalo_l&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://huggingface.co/immich-app/XLM-Roberta-Large-Vit-B-16Plus&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;# 国内镜像&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://hf-mirror.com/immich-app/buffalo_l&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git &lt;span class=&#34;built_in&#34;&gt;clone&lt;/span&gt; https://hf-mirror.com/immich-app/XLM-Roberta-Large-Vit-B-16Plus&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;移动文件夹，树状图如下&lt;br&gt; &lt;figure class=&#34;highlight markdown&#34;&gt;&lt;figcaption&gt;&lt;span&gt;F:/web/model-cache&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;model-cache&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;├─clip&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│  └─XLM-Roberta-Large-Vit-B-16Plus&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│      ├─textual&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;│      └─visual&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;└─facial-recognition&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;code&#34;&gt;    └─buffalo_l&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;li&gt;跟之前一样，运行安装代码等待部署即可&lt;br&gt; &lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;docker compose up -d&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;2-内网穿透&#34;&gt;&lt;a href=&#34;#2-内网穿透&#34; class=&#34;headerlink&#34; title=&#34;2. 内网穿透&#34;&gt;&lt;/a&gt;2. 内网穿透&lt;/h3&gt;&lt;p&gt;&lt;a href=&#34;https://linux.do/t/topic/116168&#34;&gt;自己琢磨吧&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;3-效果&#34;&gt;&lt;a href=&#34;#3-效果&#34; class=&#34;headerlink&#34; title=&#34;3. 效果&#34;&gt;&lt;/a&gt;3. 效果&lt;/h3&gt;&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;叶泯希&#34; href=&#34;https://photo.418121.xyz&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://photo.418121.xyz)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://photo.418121.xyz&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://photo.418121.xyz&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;叶泯希&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;登录 - Immich&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;叶泯希&#34; href=&#34;https://photos.418121.xyz&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://photos.418121.xyz)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://photos.418121.xyz&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://photos.418121.xyz&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;叶泯希&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;登录 - Immich&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;h1 id=&#34;结尾&#34;&gt;&lt;a href=&#34;#结尾&#34; class=&#34;headerlink&#34; title=&#34;结尾&#34;&gt;&lt;/a&gt;结尾&lt;/h1&gt;&lt;p&gt;至此，教程结束。希望对你有所帮助，有任何问题请在下方留言。可以关注我的 &lt;a href=&#34;/rss/&#34;&gt;公众号以及订阅我的文章&lt;/a&gt; ，感谢你的支持，是对我最大的动力，当然了，更多的是因为热爱。&lt;/p&gt;
+&lt;h2 id=&#34;本文参考&#34;&gt;&lt;a href=&#34;#本文参考&#34; class=&#34;headerlink&#34; title=&#34;本文参考&#34;&gt;&lt;/a&gt;本文参考&lt;/h2&gt;&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;保持默认&#34; href=&#34;https://zhuanlan.zhihu.com/p/1044574721&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://zhuanlan.zhihu.com/p/1044574721)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://zhuanlan.zhihu.com/p/1044574721&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://zhuanlan.zhihu.com/p/1044574721&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;保持默认&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;win11部署immich相册，打造属于自己的相册管理工具&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&#34;tagLink&#34;&gt;&lt;a class=&#34;link-card&#34; title=&#34;绅士喵&#34; href=&#34;https://blog.hentioe.dev/posts/deploy-immich.html&#34;&gt;&lt;span class=&#34;link-card-backdrop&#34; style=&#34;background-image: url(https://api.xinac.net/icon/?url=https://blog.hentioe.dev/posts/deploy-immich.html)&#34;&gt;&lt;/span&gt;&lt;div class=&#34;left&#34;&gt;&lt;img src=&#34;https://api.xinac.net/icon/?url=https://blog.hentioe.dev/posts/deploy-immich.html&#34; class=&#34;lazyload placeholder&#34; data-srcset=&#34;https://api.xinac.net/icon/?url=https://blog.hentioe.dev/posts/deploy-immich.html&#34; srcset=&#34;https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp&#34;/&gt;&lt;/div&gt;&lt;div class=&#34;right&#34;&gt;&lt;p class=&#34;text&#34;&gt;绅士喵&lt;/p&gt;&lt;p class=&#34;url&#34;&gt;自建照片/视频管理方案（Immich 的部署和使用）&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;</content>
+        <category term="Docker" />
+        <category term="Windows" />
+        <category term="Immich" />
+        <updated>2025-04-08T07:20:08.000Z</updated>
+    </entry>
+</feed>
